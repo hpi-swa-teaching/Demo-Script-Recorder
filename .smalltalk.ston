@@ -3,9 +3,7 @@ SmalltalkCISpec {
     SCIMetacelloLoadSpec {
       #baseline : 'DRC-Core',
       #directory : 'packages',
-      #platforms : [ #squeak ],
-      #load : [ 'default' ],
-      #useLatestMetacello : true
+      #platforms : [ #squeak ]
     }
   ]
 }

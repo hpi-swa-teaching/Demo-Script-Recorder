@@ -1,0 +1,14 @@
+{
+	"category" : "DRC-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "Testclass2",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

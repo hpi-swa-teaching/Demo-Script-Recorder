@@ -5,6 +5,6 @@ baseline: spec
         for: #common
         do: [ 
             spec
-                package: 'DRC-Core'.
+                package: 'DRC'.
             spec
-                group: 'default' with: #('DRC-Core')]
+                group: 'default' with: #('DRC')]

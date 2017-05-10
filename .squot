@@ -1,3 +1,4 @@
 OrderedDictionary {
+	'packages\/BaselineOfDRC.package' : #SquotCypressCodeSerializer,
 	'packages\/DRC-Core.package' : #SquotCypressCodeSerializer
 }

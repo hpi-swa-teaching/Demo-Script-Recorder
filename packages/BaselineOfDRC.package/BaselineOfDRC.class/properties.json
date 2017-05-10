@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfDRC",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfDRC",
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"type" : "normal" }

@@ -1,4 +1,4 @@
 as yet unclassified
 test
 
-^true.
+self assert: 1 = 1.

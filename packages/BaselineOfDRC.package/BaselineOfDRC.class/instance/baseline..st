@@ -4,11 +4,13 @@ baseline: spec
     spec
         for: #common
         do: [ 
+        
             spec
-			package: 'DRC-Core';
-			package: 'DRC-Test' with: [spec requires: #('default')];
-			yourself.
-            spec
-			group: 'default' with: #('DRC-Core');
-			group: 'tests' with: #('DRC-Test')];
-			yourself
+				package: 'DRC-Core';
+				package: 'DRC-Test' with: [spec requires: #('default')];
+				yourself.
+	
+	        spec
+	        	group: 'default' with: #('DRC-Core');
+				group: 'tests' with: #('DRC-Test')];
+				yourself

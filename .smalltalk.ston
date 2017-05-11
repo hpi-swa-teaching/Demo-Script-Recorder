@@ -8,4 +8,9 @@ SmalltalkCISpec {
 	  #useLatestMetacello : true
     }
   ]
+  #testing: {
+  	#allTestCases : true,
+  	#failOnZeroTests: false
+  }
+
 }

@@ -11,6 +11,6 @@ baseline: spec
 				yourself.
 	
 	        spec
-	        	group: 'default' with: #('DRC-Core');
+	       	 	group: 'default' with: #('DRC-Core');
 				group: 'tests' with: #('DRC-Test')];
 				yourself

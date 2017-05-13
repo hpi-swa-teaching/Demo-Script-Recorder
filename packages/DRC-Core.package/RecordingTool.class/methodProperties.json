@@ -1,0 +1,11 @@
+{
+	"class" : {
+		"open" : "CL 5/13/2017 15:32" },
+	"instance" : {
+		"actionPlay" : "CL 5/13/2017 15:37",
+		"actionRecord" : "CL 5/13/2017 15:18",
+		"actionStop" : "CL 5/13/2017 15:37",
+		"buildButtonBar:" : "CL 5/13/2017 15:39",
+		"buildWith:" : "CL 5/13/2017 15:44",
+		"initialize" : "CL 5/13/2017 15:22",
+		"labelString" : "CL 5/13/2017 15:30" } }

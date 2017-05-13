@@ -1,0 +1,12 @@
+{
+	"class" : {
+		"open" : "fk 5/13/2017 13:28" },
+	"instance" : {
+		"actionExecuteCode" : "fk 5/13/2017 13:30",
+		"buildButtonBar:" : "fk 5/13/2017 13:30",
+		"buildCodePane:" : "fk 5/13/2017 13:32",
+		"buildWith:" : "fk 5/13/2017 13:32",
+		"codepane" : "fk 5/13/2017 13:29",
+		"codepane:" : "fk 5/13/2017 13:29",
+		"initialize" : "fk 5/13/2017 13:30",
+		"labelString" : "fk 5/13/2017 13:30" } }

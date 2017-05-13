@@ -1,14 +1,14 @@
 {
-	"category" : "DRC-Test",
+	"category" : "DRC-Core",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "DRCTest",
+		"codepane" ],
+	"name" : "CodeExecutionTool",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "Model",
 	"type" : "normal" }

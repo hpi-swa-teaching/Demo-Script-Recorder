@@ -6,7 +6,7 @@ baseline: spec
         do: [ 
         
             spec
-				baseline: 'MTFUITest' with: 
+				package: 'MTFUITest' with: 
 					[spec
 							loads: #('tests');
 							repository: 'github://HPI-SWA-Teaching/Morphic-Testing-Framework:master/packages']; 

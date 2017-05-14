@@ -16,5 +16,5 @@ baseline: spec
 	
 	        spec
 	       	 	group: 'default' with: #('DRC-Core');
-				group: 'tests' with: #('DRC-Test')];
+				group: 'tests' with: #('DRC-Test' 'MTFUITest')];
 				yourself

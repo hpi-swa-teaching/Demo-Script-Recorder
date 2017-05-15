@@ -2,10 +2,11 @@
 	"class" : {
 		"open" : "CL 5/13/2017 15:32" },
 	"instance" : {
-		"actionPlay" : "CL 5/13/2017 15:37",
-		"actionRecord" : "CL 5/13/2017 15:18",
-		"actionStop" : "CL 5/13/2017 15:37",
+		"actionPlay" : "fk 5/15/2017 21:34",
+		"actionRecord" : "fk 5/15/2017 21:40",
+		"actionStop" : "fk 5/15/2017 21:29",
 		"buildButtonBar:" : "CL 5/13/2017 15:39",
 		"buildWith:" : "CL 5/13/2017 15:44",
-		"initialize" : "CL 5/13/2017 15:22",
+		"initialize" : "fk 5/15/2017 21:32",
+		"initializeEventRecorder" : "fk 5/15/2017 21:45",
 		"labelString" : "CL 5/13/2017 15:30" } }

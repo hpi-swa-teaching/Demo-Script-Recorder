@@ -6,6 +6,10 @@ baseline: spec
         do: [ 
         
             spec
+				baseline: 'MTFUITest' with: 
+					[spec
+							loads: #('tests');
+							repository: 'github://HPI-SWA-Teaching/Morphic-Testing-Framework:master/packages']; 
 				package: 'DRC-Core';
 				package: 'DRC-Test' with: [spec requires: #('default')];
 				yourself.

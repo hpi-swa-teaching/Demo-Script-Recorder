@@ -1,2 +1,4 @@
 actions
 actionStop
+
+	recorder stop.

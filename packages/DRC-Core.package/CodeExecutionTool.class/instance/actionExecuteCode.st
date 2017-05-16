@@ -1,4 +1,4 @@
 actions
 actionExecuteCode
 
-  (BlockClosure readFromString: (self codepane getText)) value.
+  Compiler evaluate: self code.

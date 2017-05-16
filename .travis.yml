@@ -12,9 +12,4 @@ smalltalk:
   - Squeak-trunk
   - Squeak-5.1
   - Squeak-5.0
-  - Squeak-4.6
-
-before_script:
-  - ls
-  - cd ..
-  - git clone https://github.com/HPI-SWA-Teaching/Morphic-Testing-Framework.git morphic-testing-framework
+#  - Squeak-4.6

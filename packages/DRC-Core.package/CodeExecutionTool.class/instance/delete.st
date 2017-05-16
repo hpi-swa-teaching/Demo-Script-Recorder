@@ -1,0 +1,4 @@
+initializing
+delete
+	
+	self release.

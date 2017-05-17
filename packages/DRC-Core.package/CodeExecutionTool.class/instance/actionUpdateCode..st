@@ -1,4 +1,4 @@
 actions
-getCode: Text
+actionUpdateCode: Text
 
 	self code: Text.

@@ -1,0 +1,4 @@
+actions
+actionGetText
+
+	^self code.

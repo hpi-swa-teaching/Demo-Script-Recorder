@@ -1,5 +1,4 @@
 actions
-actionLoadSavedCode
+actionResetScript 
 
-	self code: self save.
 	Transcript show: 'Alert not working'.

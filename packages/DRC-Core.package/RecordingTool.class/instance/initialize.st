@@ -2,4 +2,5 @@ initialize-release
 initialize
 
 	super initialize.
-	self initializeEventRecorder.
+	self 	initializeEventRecorder;
+			scriptEditor: ScriptEditor new.

@@ -1,4 +1,4 @@
 initialize-release
 release
 	
-	recorder delete.
+	self recorder delete.

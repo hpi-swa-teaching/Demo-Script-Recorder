@@ -1,5 +1,5 @@
 initialize-release
 initializeEventRecorder
 
-	recorder := EventRecorderMorph new openInWorld.
-	recorder visible: false.
+	self recorder: EventRecorderMorph new openInWorld.
+	self recorder visible: false.

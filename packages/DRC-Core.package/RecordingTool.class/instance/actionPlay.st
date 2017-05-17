@@ -1,4 +1,4 @@
 actions
 actionPlay
 
-	recorder play.
+	self recorder play.

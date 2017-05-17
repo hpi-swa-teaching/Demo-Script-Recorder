@@ -1,4 +1,0 @@
-actions
-actionGetText
-
-	^self code.

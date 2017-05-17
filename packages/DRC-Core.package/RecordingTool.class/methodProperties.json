@@ -2,12 +2,17 @@
 	"class" : {
 		"open" : "CL 5/13/2017 15:32" },
 	"instance" : {
-		"actionPlay" : "fk 5/15/2017 21:34",
-		"actionRecord" : "fk 5/15/2017 21:40",
-		"actionStop" : "fk 5/15/2017 21:29",
-		"buildButtonBar:" : "CL 5/13/2017 15:39",
+		"actionEditScript" : "tl 5/17/2017 20:24",
+		"actionPlay" : "tl 5/17/2017 20:18",
+		"actionRecord" : "tl 5/17/2017 20:18",
+		"actionStop" : "tl 5/17/2017 20:18",
+		"buildButtonBar:" : "tl 5/17/2017 20:16",
 		"buildWith:" : "CL 5/13/2017 15:44",
-		"initialize" : "fk 5/15/2017 21:32",
-		"initializeEventRecorder" : "fk 5/15/2017 22:58",
+		"initialize" : "tl 5/17/2017 20:29",
+		"initializeEventRecorder" : "tl 5/17/2017 20:18",
 		"labelString" : "CL 5/13/2017 15:30",
-		"release" : "fk 5/15/2017 22:57" } }
+		"recorder" : "tl 5/17/2017 20:17",
+		"recorder:" : "tl 5/17/2017 20:17",
+		"release" : "tl 5/17/2017 20:17",
+		"scriptEditor" : "tl 5/17/2017 20:23",
+		"scriptEditor:" : "tl 5/17/2017 20:23" } }

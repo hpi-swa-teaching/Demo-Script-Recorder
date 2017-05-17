@@ -1,5 +1,5 @@
 actions
 actionRecord
 
-	recorder record.
+	self recorder record.
 

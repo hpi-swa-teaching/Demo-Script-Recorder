@@ -9,7 +9,7 @@
 		"codepane",
 		"code",
 		"save" ],
-	"name" : "CodeExecutionTool",
+	"name" : "ScriptEditor",
 	"pools" : [
 		 ],
 	"super" : "Model",

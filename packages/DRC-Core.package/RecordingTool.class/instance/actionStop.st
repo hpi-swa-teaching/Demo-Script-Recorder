@@ -1,4 +1,4 @@
 actions
 actionStop
 
-	recorder stop.
+	self recorder stop.

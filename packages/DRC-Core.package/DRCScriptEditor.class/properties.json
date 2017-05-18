@@ -6,9 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"recorder",
-		"scriptEditor" ],
-	"name" : "RecordingTool",
+		"codepane",
+		"code",
+		"save" ],
+	"name" : "DRCScriptEditor",
 	"pools" : [
 		 ],
 	"super" : "Model",

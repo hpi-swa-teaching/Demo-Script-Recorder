@@ -3,4 +3,4 @@ initialize
 
 	super initialize.
 	self 	initializeEventRecorder;
-			scriptEditor: ScriptEditor new.
+			scriptEditor: DRCScriptEditor new.

@@ -1,5 +1,5 @@
 building
-buildButtonBar: builder
+buildRecordingButtonBar: builder
 	^builder pluggablePanelSpec new
 		layout: #horizontal;
 		children: {
@@ -24,5 +24,5 @@ buildButtonBar: builder
 				action: #actionEditScript;
 				help: 'Edit script, which executes Code when the record starts'.	
 			};
-		frame: (0@0 corner: 1@1)
+		frame: (0@0 corner: 1@0.5)
 				

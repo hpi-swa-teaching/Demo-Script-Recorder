@@ -1,4 +1,4 @@
 as yet unclassified
 setUp
 
-	self wantsToTest: CodeExecutionTool new.
+	self wantsToTest: ScriptEditor new.

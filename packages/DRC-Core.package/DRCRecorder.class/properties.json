@@ -1,0 +1,25 @@
+{
+	"category" : "DRC-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"tape",
+		"time",
+		"state",
+		"deltaTime",
+		"recHand",
+		"playHand",
+		"lastEvent",
+		"lastDelta",
+		"tapeStream",
+		"saved",
+		"recordMeter",
+		"journalFile" ],
+	"name" : "DRCRecorder",
+	"pools" : [
+		 ],
+	"super" : "AlignmentMorph",
+	"type" : "normal" }

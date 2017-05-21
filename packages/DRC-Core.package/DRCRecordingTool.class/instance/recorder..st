@@ -1,4 +1,4 @@
 accessing
-recorder: anObject
-	
-	recorder := anObject.
+recorder: aRecorder
+
+	recorder := aRecorder

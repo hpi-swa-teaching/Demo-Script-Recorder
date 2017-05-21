@@ -2,5 +2,5 @@ initialize-release
 initialize
 
 	super initialize.
-	self 	initializeEventRecorder;
-			scriptEditor: DRCScriptEditor new.
+	self recorder: DRCRecorder new.
+	self scriptEditor: DRCScriptEditor new.

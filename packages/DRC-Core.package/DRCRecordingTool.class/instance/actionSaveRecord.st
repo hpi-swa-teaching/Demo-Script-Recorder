@@ -1,4 +1,4 @@
 actions
-actionSafeRecord
+actionSaveRecord
 
 	self recorder writeTape.

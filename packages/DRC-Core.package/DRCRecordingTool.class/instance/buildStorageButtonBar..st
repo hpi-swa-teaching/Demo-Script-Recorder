@@ -10,8 +10,8 @@ buildStorageButtonBar: builder
 				help: 'Loads a Record from the FileSystem'. 
 			builder pluggableActionButtonSpec new
 				model: self;
-				label: 'Safe Record';
-				action: #actionSafeRecord;
-				help: 'Safes the current Record in the FileSystem'.
+				label: 'Save Record';
+				action: #actionSaveRecord;
+				help: 'Saves the current Record in the FileSystem'.
 			};
 		frame: (0@0.5 corner: 1@1)

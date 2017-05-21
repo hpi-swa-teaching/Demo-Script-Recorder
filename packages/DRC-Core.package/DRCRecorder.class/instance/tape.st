@@ -1,0 +1,4 @@
+accessing
+tape
+
+	^ tape.

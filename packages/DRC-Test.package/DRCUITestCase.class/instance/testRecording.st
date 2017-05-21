@@ -3,4 +3,4 @@ testRecording
 
 	(self subject findByLabel: 'Record') click.
 	(self subject findByLabel: 'Stop') click.
-	self assert: self recorder tape notNil equals: true.
+	self assert: self subject recorder tape notNil equals: true.

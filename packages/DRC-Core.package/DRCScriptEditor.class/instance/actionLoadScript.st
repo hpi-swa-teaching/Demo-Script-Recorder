@@ -1,4 +1,0 @@
-actions
-actionLoadScript
-
-	^self code.

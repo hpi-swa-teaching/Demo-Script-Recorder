@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 executeScript
 
-	Compiler evaluate: self save.
+	Compiler evaluate: self code.

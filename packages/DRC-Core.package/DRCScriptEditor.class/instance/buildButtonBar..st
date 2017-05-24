@@ -7,12 +7,12 @@ buildButtonBar: builder
       builder pluggableActionButtonSpec new
         model: self;
         label: 'Save';
-        action: #actionSaveCurrentScript;
+        action: #actionSaveCode;
         help: 'Save the written code.'.
 	builder pluggableActionButtonSpec new
         model: self;
-        label: 'Load';
-        action: #actionLoadSavedCode;
+        label: 'Recover Changes';
+        action: #actionRecoverChanges;
         help: 'Load the last save.'.
 	builder pluggableActionButtonSpec new
         model: self;

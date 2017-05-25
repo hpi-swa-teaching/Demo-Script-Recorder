@@ -2,16 +2,15 @@
 	"class" : {
 		"open" : "fk 5/13/2017 13:28" },
 	"instance" : {
-		"actionRecoverChanges" : "tl 5/23/2017 19:25",
-		"actionSaveCode" : "tl 5/23/2017 19:41",
-		"buildButtonBar:" : "tl 5/23/2017 19:25",
-		"buildCodePane:" : "tl 5/23/2017 19:21",
-		"buildWith:" : "fk 5/13/2017 13:32",
-		"code" : "tl 5/23/2017 19:37",
-		"code:" : "tl 5/23/2017 19:37",
-		"codepane" : "fk 5/13/2017 13:29",
-		"codepane:" : "fk 5/13/2017 13:29",
+		"actionRecoverChanges" : "tl 5/25/2017 16:05",
+		"actionResetScript" : "tl 5/25/2017 16:03",
+		"actionSaveCode" : "tl 5/25/2017 16:03",
+		"buildButtonBar:" : "tl 5/25/2017 16:10",
+		"buildCodePane:" : "tl 5/25/2017 16:12",
+		"buildWith:" : "tl 5/25/2017 16:13",
+		"code" : "tl 5/25/2017 16:06",
+		"code:" : "tl 5/25/2017 16:06",
 		"delete" : "fk 5/16/2017 17:09",
 		"executeScript" : "tl 5/23/2017 19:45",
 		"initialize" : "tl 5/17/2017 20:09",
-		"labelString" : "tl 5/17/2017 20:24" } }
+		"labelString" : "tl 5/25/2017 16:07" } }

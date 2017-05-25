@@ -1,4 +1,4 @@
-accessing
+execute
 executeScript
 
 	Compiler evaluate: self code.

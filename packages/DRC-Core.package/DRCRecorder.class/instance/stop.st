@@ -1,6 +1,6 @@
 commands
 stop
-
+	
 	state = #record ifTrue:
 		[tape := tapeStream contents.
 		saved := false].

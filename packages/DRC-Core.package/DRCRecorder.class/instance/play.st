@@ -6,4 +6,3 @@ play
 	tape ifNil: [^ self].
 	tapeStream := ReadStream on: tape.
 	self resumePlayIn: self world.
-

@@ -1,0 +1,4 @@
+accessing
+tapeStream
+	
+	^ tapeStream

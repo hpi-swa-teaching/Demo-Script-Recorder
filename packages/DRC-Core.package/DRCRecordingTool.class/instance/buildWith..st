@@ -6,7 +6,8 @@ buildWith: builder
 		label: #labelString;
 		children: {
 			self buildRecordingButtonBar: builder.
-			self buildStorageButtonBar: builder
+			self buildStorageButtonBar: builder.
+			self buildPathInfo: builder.
 		 })
 		
 	

@@ -1,0 +1,4 @@
+building
+currentPath
+
+	^'unsaved tape'.

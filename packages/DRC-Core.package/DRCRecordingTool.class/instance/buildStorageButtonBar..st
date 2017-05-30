@@ -14,4 +14,4 @@ buildStorageButtonBar: builder
 				action: #actionSaveRecord;
 				help: 'Saves the current Record in the FileSystem'.
 			};
-		frame: (0@0.5 corner: 1@1)
+		frame: (0@0.43 corner: 1@0.84)

@@ -5,7 +5,8 @@ buildRecordingButtonBar: builder
 		children: {
 			builder pluggableActionButtonSpec new
 				model: self;
-				label: 'Record and Stop';
+				color: #getColor;
+				label: #getLabel;
 				action: #actionRecordStop;
 				help: 'Recording the screen.'. 
 			builder pluggableActionButtonSpec new

@@ -3,4 +3,4 @@ actionRecord
 	
 	self saveCurrentState.
 	self recorder record.
-
+	self getVisualFeedback.

@@ -2,4 +2,7 @@ initialize-release
 initialize
 
 	super initialize.
-	saved := true.
+	self 
+		tapePath: 'unsaved tape'; 
+		recordingTool: nil;
+		saved: true.

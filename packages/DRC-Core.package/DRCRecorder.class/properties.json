@@ -17,7 +17,9 @@
 		"tapeStream",
 		"saved",
 		"recordMeter",
-		"journalFile" ],
+		"journalFile",
+		"tapePath",
+		"recordingTool" ],
 	"name" : "DRCRecorder",
 	"pools" : [
 		 ],

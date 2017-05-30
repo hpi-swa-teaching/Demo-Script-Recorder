@@ -1,4 +1,0 @@
-building
-currentPath
-
-	^'unsaved tape'.

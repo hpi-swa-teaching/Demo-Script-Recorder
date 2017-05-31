@@ -10,5 +10,4 @@ stop
 	tapeStream := nil.
 	state := nil.
 	recordMeter ifNotNil: [recordMeter width: 1].
-	self recordingTool changed: #currentTapePath.
 	self checkTape.

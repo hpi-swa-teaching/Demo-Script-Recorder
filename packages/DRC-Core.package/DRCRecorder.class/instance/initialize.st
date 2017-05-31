@@ -3,6 +3,6 @@ initialize
 
 	super initialize.
 	self 
-		tapePath: 'unsaved tape'; 
+		tapePath: 'no tape selected'; 
 		recordingTool: nil;
 		saved: true.

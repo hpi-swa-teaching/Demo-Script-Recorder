@@ -4,7 +4,7 @@ readTape: fileName
 	self writeCheck.
 	(FileStream isAFileNamed: fileName) ifFalse: [^ nil].
 	file := FileStream oldFileNamed: fileName.
-	self tapePath: fileName.
+	self tapePath: (fileName asFile fullName).
 	tape := self readFrom: file.
 	file close.
 	saved := true  "Still exists on file"

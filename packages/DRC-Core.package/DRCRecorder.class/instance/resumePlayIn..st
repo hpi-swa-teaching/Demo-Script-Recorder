@@ -6,6 +6,8 @@ resumePlayIn: aWorld
 	aWorld addHand: playHand.
 	playHand newKeyboardFocus: aWorld.
 	playHand userInitials: 'play' andPicture: nil.
+	
+	playHand addMorphFront: self mouseCircle.
 
 	lastEvent := nil.
 	lastDelta := 0@0.

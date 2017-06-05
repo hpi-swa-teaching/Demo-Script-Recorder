@@ -19,7 +19,8 @@
 		"recordMeter",
 		"journalFile",
 		"tapePath",
-		"recordingTool" ],
+		"recordingTool",
+		"mouseCircle" ],
 	"name" : "DRCRecorder",
 	"pools" : [
 		 ],

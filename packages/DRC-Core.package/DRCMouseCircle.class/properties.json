@@ -1,0 +1,14 @@
+{
+	"category" : "DRC-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"existingTime" ],
+	"name" : "DRCMouseCircle",
+	"pools" : [
+		 ],
+	"super" : "CircleMorph",
+	"type" : "normal" }

@@ -5,3 +5,4 @@ initialize
 	self 
 		tapePath: 'no tape selected'; 
 		saved: true.
+	self initializeMouseCircle.

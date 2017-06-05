@@ -7,8 +7,14 @@ buildRecordingButtonBar: builder
 				model: self;
 				color: #getColor;
 				label: #getLabel;
-				action: #actionRecordStop;
+				action: #actionRecordPause;
 				help: 'Recording the screen.'. 
+			builder pluggableActionButtonSpec new
+				model: self;
+				label: 'Stop';
+				action: #actionStop;
+				enabled: #isStopButtonEnabled;
+				help: 'Stops the current record.'.
 			builder pluggableActionButtonSpec new
 				model: self;
 				label: 'Play';

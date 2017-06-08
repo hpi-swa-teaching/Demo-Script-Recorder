@@ -21,7 +21,9 @@
 		"tapePath",
 		"recordingTool",
 		"mouseCircle",
-		"paused" ],
+		"paused",
+		"pauseStartTime",
+		"pauseTotalTime" ],
 	"name" : "DRCRecorder",
 	"pools" : [
 		 ],

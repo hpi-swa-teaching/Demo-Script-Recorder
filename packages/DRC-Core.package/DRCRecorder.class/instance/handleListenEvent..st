@@ -11,6 +11,7 @@ handleListenEvent: anEvent
 	(anEvent isKeyboard and:[anEvent keyValue = 27 "esc"])
 		ifTrue: [^ self stop].
 	time := anEvent timeStamp.
+	Transcript show: self pauseTotalTime; show: ' '.
 	tapeStream nextPut: (anEvent copy setHand: nil).
 	journalFile ifNotNil:
 		[journalFile store: anEvent; cr; flush].

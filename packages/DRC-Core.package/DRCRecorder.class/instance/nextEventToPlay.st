@@ -22,10 +22,6 @@ nextEventToPlay
 		nextEvent isMouse ifTrue:[lastEvent := nextEvent.
 								    nextEvent isMouseDown ifTrue: [self mouseCircle showAt: nextEvent position].] 							
 						     ifFalse:[lastEvent := nil].
-		
-		
-		
-		
 		^nextEvent].
 	tapeStream skip: -1.
 	"Not time for the next event yet, but interpolate the mouse.

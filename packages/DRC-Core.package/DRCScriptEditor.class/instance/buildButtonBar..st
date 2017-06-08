@@ -11,11 +11,6 @@ buildButtonBar: builder
    					action: #actionSaveCode;
    					help: 'Save the written code.'.
 			builder 	pluggableActionButtonSpec new
-   					model: self;
-   					label: 'Recover Changes';
-    					action: #actionRecoverChanges;
-    					help: 'Load the last save.'.
-			builder 	pluggableActionButtonSpec new
   					model: self;
   					label: 'Reset';
   					action: #actionResetScript;

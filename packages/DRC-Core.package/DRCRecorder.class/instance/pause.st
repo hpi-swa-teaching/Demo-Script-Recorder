@@ -1,0 +1,4 @@
+commands
+pause
+
+	self togglePaused.

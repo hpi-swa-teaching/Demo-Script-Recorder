@@ -20,7 +20,8 @@
 		"journalFile",
 		"tapePath",
 		"recordingTool",
-		"mouseCircle" ],
+		"mouseCircle",
+		"paused" ],
 	"name" : "DRCRecorder",
 	"pools" : [
 		 ],

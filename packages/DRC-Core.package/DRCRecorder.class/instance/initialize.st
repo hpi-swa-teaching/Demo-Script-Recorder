@@ -4,5 +4,6 @@ initialize
 	super initialize.
 	self 
 		tapePath: 'no tape selected'; 
-		saved: true.
+		saved: true;
+		paused: false.
 	self initializeMouseCircle.

@@ -1,6 +1,7 @@
 events-processing
 handleListenEvent: anEvent
 	"Record the given event"
+	self paused ifTrue: [^ self].
 	anEvent hand == recHand ifFalse: [^ self].	"not for me"
 	state == #record ifFalse: [
 		"If user got an error while recording and deleted recorder, will still be listening"

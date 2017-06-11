@@ -1,7 +1,7 @@
 accessing
 disableStopButton
 
-	stopButtonEnabled := false.
+	stopButtonEnabled := true.
 
 
 	

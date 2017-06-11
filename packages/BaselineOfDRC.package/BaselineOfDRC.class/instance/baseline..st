@@ -21,5 +21,5 @@ baseline: spec
 	
 	        spec
 	       	 	group: 'default' with: #('DRC-Core');
-				group: 'tests' with: #('DRC-Test' 'Project12' 'Squot')];
+				group: 'tests' with: #('DRC-Test' 'Project12' 'Squot' 'Animations')];
 				yourself

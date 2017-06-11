@@ -1,8 +1,7 @@
 showing
 showAt: aPosition
 
-	self existingTime: 10.
 	self visible: true.
-	self color: Color red.
-	self position: aPosition.
-	
+	self existingTime: 30.
+	self position: aPosition x - 40   @ aPosition y - 25.
+	self fadeIn.

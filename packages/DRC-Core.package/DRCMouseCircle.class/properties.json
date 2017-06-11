@@ -10,5 +10,5 @@
 	"name" : "DRCMouseCircle",
 	"pools" : [
 		 ],
-	"super" : "CircleMorph",
+	"super" : "PolygonMorph",
 	"type" : "normal" }

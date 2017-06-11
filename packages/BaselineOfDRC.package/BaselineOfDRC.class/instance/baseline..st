@@ -12,9 +12,11 @@ baseline: spec
 				baseline: 'Squot' with: 
 					[spec
 						  repository: 'github://hpi-swa/Squot:master/src'];
+				baseline: 'Animations' with: 
+					[spec
+							repository: 'github://hpi-swa/animations/repository']; 	
 				package: 'DRC-Core';
 				package: 'DRC-Test' with: [spec requires: #('default')];
-				package: 'FS-Core' with: [spec requires: #('default')];
 				yourself.
 	
 	        spec

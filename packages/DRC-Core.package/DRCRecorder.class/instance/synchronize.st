@@ -1,5 +1,5 @@
 event handling
 synchronize
-
-	time := Time millisecondClockValue.
-	deltaTime := nil.
+	pauseTime := 0.
+	time := Time millisecondClockValue - pauseTotalTime.
+	deltaTime := nil

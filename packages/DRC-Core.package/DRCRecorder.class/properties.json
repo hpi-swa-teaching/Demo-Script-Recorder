@@ -23,7 +23,8 @@
 		"mouseCircle",
 		"paused",
 		"pauseStartTime",
-		"pauseTotalTime" ],
+		"pauseTotalTime",
+		"pauseTime" ],
 	"name" : "DRCRecorder",
 	"pools" : [
 		 ],

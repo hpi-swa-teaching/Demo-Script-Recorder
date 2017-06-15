@@ -20,7 +20,7 @@ nextEventToPlay
 	(now >= nextTime) ifTrue:[
 		nextEvent := nextEvent copy setTimeStamp: nextTime.
 		nextEvent isMouse ifTrue:[lastEvent := nextEvent.
-								    nextEvent isMouseDown ifTrue: [self mouseCircle showAt: nextEvent position].] 							
+								    nextEvent isMouseDown ifTrue: [self visualizeMouseEvent: nextEvent].] 							
 						     ifFalse:[lastEvent := nil].
 		^nextEvent].
 	tapeStream skip: -1.

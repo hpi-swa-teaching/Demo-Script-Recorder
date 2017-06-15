@@ -2,12 +2,13 @@
 	"class" : {
 		 },
 	"instance" : {
-		"decrementExistingTime" : "CL 6/5/2017 11:23",
-		"existingTime" : "CL 6/5/2017 11:21",
-		"existingTime:" : "CL 6/5/2017 11:21",
-		"initialize" : "CL 6/11/2017 15:08",
+		"decreaseLifeTime" : "CL 6/15/2017 21:01",
+		"initialize" : "CL 6/15/2017 21:02",
+		"lifeTime" : "CL 6/15/2017 20:59",
+		"lifeTime:" : "CL 6/15/2017 20:59",
 		"radius" : "CL 6/11/2017 15:22",
-		"showAt:" : "CL 6/11/2017 15:22",
-		"step" : "CL 6/11/2017 14:44",
-		"stepTime" : "CL 6/11/2017 14:43",
-		"verts" : "CL 6/11/2017 15:22" } }
+		"showAt:with:" : "CL 6/15/2017 21:52",
+		"step" : "CL 6/15/2017 21:48",
+		"stepTime" : "CL 6/15/2017 21:43",
+		"verts" : "CL 6/11/2017 15:22",
+		"wantsSteps" : "CL 6/15/2017 21:43" } }

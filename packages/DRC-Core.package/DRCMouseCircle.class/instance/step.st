@@ -2,5 +2,6 @@ stepping and presenter
 step
 
 	self comeToFront.
-	self decrementExistingTime.
-	(self existingTime = 0) ifTrue: [self fadeOut].
+	self lifeTime > 0 ifTrue: [self decreaseLifeTime].
+	self lifeTime = 0 ifTrue: [self delete].
+	

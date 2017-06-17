@@ -1,5 +1,6 @@
 fileIn/Out
 readTape
-	^ self readTape: (UIManager default
-							request: 'Tape to read' translated
-							initialAnswer: 'tapeName.tape').
+	|  file |
+	file := FileList2 modalFileSelectorForSuffixes: {'tape'}.
+	file = nil ifTrue: [^nil].
+	^self readTape: file.

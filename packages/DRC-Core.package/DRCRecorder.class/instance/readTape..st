@@ -1,10 +1,11 @@
 fileIn/Out
-readTape: fileName 
-	| file |
+readTape: aMultiByteFileStream 
 	self writeCheck.
-	(FileStream isAFileNamed: fileName) ifFalse: [^ nil].
-	file := FileStream oldFileNamed: fileName.
-	self tapePath: (fileName asFile fullName).
-	tape := self readFrom: file.
-	file close.
-	saved := true  "Still exists on file"
+	
+	"(FileStream isAFileNamed: aMultiByteFileStream fullName) ifFalse: [^ nil]."
+	"file := FileStream oldFileNamed: fileName."
+	
+	self tapePath: (aMultiByteFileStream fullName).
+	tape := self readFrom: aMultiByteFileStream.
+	aMultiByteFileStream close.
+	saved := true   

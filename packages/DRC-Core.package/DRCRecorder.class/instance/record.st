@@ -6,7 +6,6 @@ record
 		self writeCheck.
 		self addJournalFile.
 		self pauseTotalTime: 0.
-		self paused: false.
 	
 		tapeStream := WriteStream on: (Array new: 10000).
 		self resumeRecordIn: self world.		

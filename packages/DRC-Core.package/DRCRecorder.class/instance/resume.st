@@ -2,4 +2,4 @@ pause/resume
 resume
 
 	self resumeIn: self currentWorld.
-	self pauseStartTime: Time millisecondClockValue.
+	self pauseTotalTime:  self pauseTotalTime + (Time millisecondClockValue - self pauseStartTime).

@@ -1,12 +1,12 @@
 testing
 testDRCRecorder
 
-	|recordingTool|
+	|recordingTool scriptEditor|
 	recordingTool := DRCRecordingTool new.
 	self assert: recordingTool recorder tape notNil  equals: false.
 	recordingTool actionRecord.
-	recordingTool actionEditScript.
+	scriptEditor := recordingTool actionEditScript.
 	recordingTool actionStop.
 	self assert: recordingTool recorder tape notNil equals: true.
-	recordingTool scriptEditor delete.
+	scriptEditor delete.
 	recordingTool delete.

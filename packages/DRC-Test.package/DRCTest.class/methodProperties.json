@@ -2,5 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testDRCRecorder" : "fk 6/6/2017 16:05",
-		"testNumber" : "fk 5/16/2017 16:45" } }
+		"testDRCRecorder" : "fs 6/25/2017 15:53",
+		"testNumber" : "fk 5/16/2017 16:45",
+		"testRecordButtonColorChange" : "fs 6/25/2017 16:23",
+		"testRecordButtonLabelChange" : "fs 6/25/2017 16:27" } }

@@ -1,7 +1,7 @@
 fileIn/Out
 writeFileNamed: fileName
 	| file noVoice delta |
-	[file := FileStream newFileNamed: fileName.] on: FileExistsException do: [ ^'unsaved tape'].
+	[file := FileStream newFileNamed: fileName.] on: FileExistsException do: [ :exception  | [exception defaultAction.] on: Error do: [^'unsaved tape'] ] .
 	noVoice := true.
 	tape do:[:evt | evt type = #startSound ifTrue: [noVoice := false]].
 	noVoice

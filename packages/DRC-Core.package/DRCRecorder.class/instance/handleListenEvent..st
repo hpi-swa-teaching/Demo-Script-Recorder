@@ -8,7 +8,7 @@ handleListenEvent: anEvent
 		^self].
 	anEvent = lastEvent ifTrue: [^ self].
 	(anEvent isKeyboard and:[anEvent keyValue = 27 "esc"])
-		ifTrue: [^ self stop].
+		ifTrue: [^  recordingTool actionStop].
 	time := anEvent timeStamp - self pauseTotalTime.
 	tapeStream nextPut: (anEvent copy setHand: nil; setTimeStamp: (anEvent timeStamp - self pauseTotalTime)).
 	journalFile ifNotNil:

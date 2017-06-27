@@ -9,6 +9,8 @@ SmalltalkCISpec {
     }
   ],
   #testing: {
-    #failOnZeroTests: false
+    #coverage : {
+      #categories : [ 'DRC-Core' ]
+    }
   }
 }

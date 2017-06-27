@@ -24,7 +24,8 @@
 		"paused",
 		"pauseStartTime",
 		"pauseTotalTime",
-		"pauseTime" ],
+		"pauseTime",
+		"savedObjects" ],
 	"name" : "DRCRecorder",
 	"pools" : [
 		 ],

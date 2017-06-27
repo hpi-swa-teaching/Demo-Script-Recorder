@@ -3,6 +3,7 @@ initialize
 
 	super initialize.
 	self 
+		savedObjects: OrderedCollection new;
 		tapePath: 'no tape selected'; 
 		saved: true;
 		pauseTotalTime: 0;

@@ -9,9 +9,7 @@
 		"recorder",
 		"scriptEditor",
 		"state",
-		"stopButtonEnabled",
-		"world",
-		"savedObjects" ],
+		"stopButtonEnabled" ],
 	"name" : "DRCRecordingTool",
 	"pools" : [
 		 ],

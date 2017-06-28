@@ -1,8 +1,9 @@
 recording-state
 saveState 
 	
-	savedObjects := OrderedCollection new.
-	self world submorphsDo: [:object | savedObjects add: object veryDeepCopy].
+	self savedObjects: OrderedCollection new.
+	self recordingTool dependents size = 0 "Only necessary for testing :("
+		ifFalse: [	self world submorphsDo: [:object |  ((self recordingTool dependents at: 1) hash = object hash)  ifFalse: [self savedObjects add: object veryDeepCopy]].]
 	
 	"self savedObjects: (OrderedCollection new: self world submorphs size streamContents: 
 		[ :stream | | deepCopier |

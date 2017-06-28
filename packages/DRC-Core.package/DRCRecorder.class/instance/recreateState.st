@@ -1,8 +1,8 @@
 recording-state
 recreateState
 
-	|temporaryWorld|
-	temporaryWorld := Morph new.
-	temporaryWorld bounds: World bounds.
-	temporaryWorld openInWorld.
-	self savedObjects do: [:object | object openInWorld.].
+	self world submorphsDo: [:object | (object isKindOf: DRCRecordingTool) 
+			 ifFalse: [object delete.]].
+	self savedObjects do: [ :object | self world addMorph: object].
+	"Transcript show: savedObjects submorphs."
+	

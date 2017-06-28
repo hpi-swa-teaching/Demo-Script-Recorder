@@ -2,7 +2,7 @@ commands
 record
 		
 		self isInWorld ifFalse: [^ self].	
-		"self saveState."
+		self saveState.
 		self stop.
 		self writeCheck.
 		self addJournalFile.

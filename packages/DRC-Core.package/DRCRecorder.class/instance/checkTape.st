@@ -5,4 +5,5 @@ checkTape
 	tape ifNil: [^self].
 	tape isEmpty ifTrue: [^self].
 	(tape first isKindOf: Association) 
-		ifTrue: [tape := self convertV0Tape: tape]
+		ifTrue: [tape := self convertV0Tape: tape].
+	

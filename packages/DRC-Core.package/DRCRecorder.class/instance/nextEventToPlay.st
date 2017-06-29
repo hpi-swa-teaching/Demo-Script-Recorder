@@ -6,7 +6,8 @@ nextEventToPlay
 	Return an EOF event if there are no more events to be played."
 	| nextEvent now nextTime lastP delta |
 	(tapeStream isNil or:[tapeStream atEnd]) 
-		ifTrue:[^MorphicUnknownEvent new setType: #EOF argument: nil].
+		ifTrue:[ "self recreateStateFrom: (self currentObjectState)."
+				^MorphicUnknownEvent new setType: #EOF argument: nil].
 	now := Time millisecondClockValue.
 	nextEvent := tapeStream next.
 	"nextEvent isKeyboard ifTrue: [ nextEvent setPosition: self position ]."

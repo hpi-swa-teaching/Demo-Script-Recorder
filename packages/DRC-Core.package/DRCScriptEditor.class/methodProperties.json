@@ -2,7 +2,7 @@
 	"class" : {
 		"open" : "fk 5/13/2017 13:28" },
 	"instance" : {
-		"actionResetScript" : "tl 6/29/2017 14:24",
+		"actionResetScript" : "tl 6/29/2017 15:44",
 		"actionSaveCode" : "tl 6/29/2017 14:26",
 		"buildButtonBar:" : "tl 6/29/2017 14:28",
 		"buildCodePane:" : "tl 6/29/2017 14:28",

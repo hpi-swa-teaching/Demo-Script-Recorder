@@ -1,4 +1,4 @@
 building
 labelString
 
-  	^ 'Script-Editor'.
+  	^ 'Script-Editor'

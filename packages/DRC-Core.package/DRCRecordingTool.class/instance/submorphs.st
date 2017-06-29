@@ -1,4 +1,4 @@
 accessing
 submorphs
 
-	^ self dependents.
+	^ self dependents

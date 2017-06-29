@@ -1,6 +1,7 @@
 accessing
 toggleStopButton
 	
-	self isStopButtonEnabled ifTrue: [self disableStopButton.]
-							ifFalse: [self enableStopButton.].
+	(self isStopButtonEnabled)
+		ifTrue: [self disableStopButton.]
+		ifFalse: [self enableStopButton.].
 						

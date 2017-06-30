@@ -7,4 +7,3 @@ convertV0Tape: anArray
 		evt := assn value.
 		evt setTimeStamp: (lastKey := lastKey + assn key).
 		evt]
-	

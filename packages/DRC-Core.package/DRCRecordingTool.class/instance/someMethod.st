@@ -1,0 +1,3 @@
+building
+someMethod
+	^Color red

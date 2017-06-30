@@ -1,4 +1,4 @@
-Test-DRCRecordingTool
+testing
 testRecordButtonColorChange
 	
 	"TODO: add test for color if not recording or pausing"

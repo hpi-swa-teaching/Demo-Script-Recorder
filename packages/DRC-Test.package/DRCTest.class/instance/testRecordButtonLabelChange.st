@@ -1,4 +1,4 @@
-Test-DRCRecordingTool
+testing
 testRecordButtonLabelChange
 	
 	|recordingTool|

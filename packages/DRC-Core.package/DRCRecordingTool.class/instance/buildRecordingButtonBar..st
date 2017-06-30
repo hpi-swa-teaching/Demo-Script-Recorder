@@ -1,7 +1,6 @@
 building
 buildRecordingButtonBar: builder
-	
-	^ builder pluggablePanelSpec new
+	^builder pluggablePanelSpec new
 		layout: #horizontal;
 		children: {
 			builder pluggableActionButtonSpec new

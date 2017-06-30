@@ -1,6 +1,5 @@
 building
 buildPathInfo: aBuilder
-	
 	^ aBuilder pluggableTextSpec new
 		model: self;
 		getText: #currentTapePath;

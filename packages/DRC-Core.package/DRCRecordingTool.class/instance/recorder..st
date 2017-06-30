@@ -1,4 +1,4 @@
 accessing
 recorder: aRecorder
 
-	recorder := aRecorder.
+	recorder := aRecorder

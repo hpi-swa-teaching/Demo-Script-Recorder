@@ -1,7 +1,7 @@
 accessing
 isStopButtonEnabled
 
-	^ stopButtonEnabled
+	^ stopButtonEnabled.
 
 
 	

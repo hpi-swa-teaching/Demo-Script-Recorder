@@ -2,5 +2,5 @@ actions
 actionStop
 
 	self recorder stop.
-	self disableStopButton;
-		getVisualFeedback.
+	self disableStopButton.
+	self getVisualFeedback.

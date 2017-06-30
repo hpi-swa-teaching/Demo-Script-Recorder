@@ -1,4 +1,4 @@
 actions
 actionEditScript
 
-	^ ToolBuilder open: self scriptEditor
+	^ToolBuilder open: self scriptEditor.

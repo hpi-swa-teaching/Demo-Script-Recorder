@@ -26,7 +26,7 @@
 		"pauseTotalTime",
 		"pauseTime",
 		"savedObjects",
-		"currentObjectState" ],
+		"fileChooser" ],
 	"name" : "DRCRecorder",
 	"pools" : [
 		 ],

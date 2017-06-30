@@ -1,4 +1,4 @@
 accessing
 code
 
-	^ code
+	^ code.

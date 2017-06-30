@@ -6,6 +6,7 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
+		"codepane",
 		"code" ],
 	"name" : "DRCScriptEditor",
 	"pools" : [

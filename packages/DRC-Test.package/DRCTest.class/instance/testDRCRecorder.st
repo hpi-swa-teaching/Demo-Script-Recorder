@@ -1,4 +1,4 @@
-testing
+Test-DRCRecorder
 testDRCRecorder
 
 	|recordingTool scriptEditor|

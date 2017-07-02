@@ -1,8 +1,7 @@
 building
 buildButtonBar: builder
 
-  	^ builder 	
-		pluggablePanelSpec new
+  	^ builder pluggablePanelSpec new
   		layout: #horizontal;
   		children: {
   			builder 	pluggableActionButtonSpec new
@@ -16,4 +15,4 @@ buildButtonBar: builder
   					action: #actionResetScript;
   					help: 'Reset the codepane.'.
   		};
-  		frame: (0@0.93 corner: 1@1).
+  		frame: (0@0.93 corner: 1@1)

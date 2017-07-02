@@ -8,4 +8,4 @@ buildWith: builder
     			children: {
       			self buildCodePane: builder.
       			self buildButtonBar: builder.
-    			}).
+    			})

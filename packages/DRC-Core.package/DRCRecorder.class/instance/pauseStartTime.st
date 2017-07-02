@@ -1,4 +1,4 @@
 accessing
 pauseStartTime
-	
+
 	^ pauseStartTime

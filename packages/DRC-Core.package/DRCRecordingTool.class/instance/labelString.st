@@ -1,3 +1,4 @@
 building
 labelString
-	^ 'Demo Recorder Pro Evolution X'.
+	
+	^ 'Demo Recorder Pro Evolution X'

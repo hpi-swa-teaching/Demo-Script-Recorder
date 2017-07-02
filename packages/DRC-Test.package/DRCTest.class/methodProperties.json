@@ -3,6 +3,7 @@
 		"lastStoredRun" : "CL 6/28/2017 09:28" },
 	"instance" : {
 		"testDRCRecorder" : "tl 6/28/2017 17:20",
+		"testJournalFile" : "tl 7/2/2017 14:56",
 		"testMouseCircleInitialization" : "tl 6/29/2017 22:34",
 		"testNumber" : "fk 5/16/2017 16:45",
 		"testPathLabelChange" : "tl 6/29/2017 16:05",

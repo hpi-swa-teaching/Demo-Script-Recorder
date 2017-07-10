@@ -1,0 +1,14 @@
+{
+	"category" : "DRC-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "DRCDirectoryChooser",
+	"pools" : [
+		 ],
+	"super" : "FileChooser",
+	"type" : "normal" }

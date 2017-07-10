@@ -1,10 +1,7 @@
 fileIn/Out
 readTape
-	|  file fileChooser |
+	|  file |
 	self saveStateIn: (self savedObjects) .
-	fileChooser := FileChooser new.
-	fileChooser initializeAsSystemWindow.
-	fileChooser setSuffixes: {'tape'}.
-	file := fileChooser open. 
+	file := (self fileChooser) open. 
 	file = nil ifTrue: [^nil].
 	^self readTape: file.

@@ -13,6 +13,8 @@
 		"deltaTime" : "tl 5/30/2017 16:43",
 		"deltaTime:" : "tl 5/30/2017 16:43",
 		"deltaTimeFor:until:" : "tl 6/29/2017 15:05",
+		"directoryChooser" : "CL 7/10/2017 15:32",
+		"fileChooser" : "CL 7/10/2017 15:36",
 		"handleListenEvent:" : "fk 6/27/2017 17:29",
 		"hasEqualHashWith:" : "tl 6/29/2017 14:34",
 		"initialize" : "tl 6/29/2017 00:27",
@@ -42,8 +44,8 @@
 		"readFrom:" : "CL 5/21/2017 18:16",
 		"readFromV0:" : "CL 5/21/2017 18:16",
 		"readFromV1:" : "CL 5/21/2017 18:16",
-		"readTape" : "CL 7/3/2017 19:52",
-		"readTape:" : "CL 6/17/2017 14:01",
+		"readTape" : "CL 7/10/2017 15:38",
+		"readTape:" : "CL 7/3/2017 20:13",
 		"recHand" : "tl 5/30/2017 16:43",
 		"recHand:" : "tl 5/30/2017 16:43",
 		"record" : "fk 6/29/2017 15:05",
@@ -79,6 +81,6 @@
 		"wantsSteps" : "CL 5/21/2017 18:19",
 		"world" : "CL 5/21/2017 20:18",
 		"writeCheck" : "tl 6/29/2017 14:17",
-		"writeFileNamed:" : "fk 6/27/2017 17:09",
+		"writeFileNamed:" : "CL 7/10/2017 15:35",
 		"writeTape" : "fk 6/26/2017 22:56",
-		"writeTape:" : "tl 6/1/2017 12:32" } }
+		"writeTape:" : "CL 7/10/2017 14:18" } }

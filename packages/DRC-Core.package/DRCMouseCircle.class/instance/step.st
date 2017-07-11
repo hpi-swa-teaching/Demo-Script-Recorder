@@ -2,6 +2,6 @@ stepping and presenter
 step
 
 	self comeToFront.
-	self lifeTime > 0 ifTrue: [self decreaseLifeTime].
-	self lifeTime = 0 ifTrue: [self delete].
+	self timeToLive > 0 ifTrue: [self decreaseLifeTime].
+	self timeToLive = 0 ifTrue: [self delete].
 	

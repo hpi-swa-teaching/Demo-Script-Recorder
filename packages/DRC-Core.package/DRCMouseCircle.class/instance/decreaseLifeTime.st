@@ -1,4 +1,4 @@
 accessing
 decreaseLifeTime
 
-	self lifeTime: self lifeTime - 1.
+	self timeToLive: self timeToLive - 1.

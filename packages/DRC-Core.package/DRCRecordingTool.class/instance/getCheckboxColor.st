@@ -1,4 +1,0 @@
-building
-getCheckboxColor
-
-	^(Color red).

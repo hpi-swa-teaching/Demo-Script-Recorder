@@ -14,12 +14,10 @@ buildStorageButtonBar: builder
 				label: 'Save Record';
 				action: #actionSaveRecord;
 				help: 'Saves the current Record in the FileSystem'.
-			builder pluggableCheckBoxSpec new
+			builder pluggableActionButtonSpec new
 				model: self;
-				state: #getCheckboxState;
-				label: #getCheckboxLabel;
-				color: #getCheckboxColor;
+				label: #getSaveStateLabel;
 				action: #actionSaveState;
-				help: 'Anything'.
+				help: 'If "save state" is "on" the squeak state at the beginnig of a recording will be safed. If the recording is later played the saved state will be restored.'.
 			};
 		frame: (0@0.36 corner: 1@0.71)

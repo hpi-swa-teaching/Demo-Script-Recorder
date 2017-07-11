@@ -5,6 +5,6 @@ initialize
 	self recorder: DRCRecorder new.
 	self recorder recordingTool: self.
 	self scriptEditor: DRCScriptEditor new.
-	self isSaving: false.
+	self beNotSaving.
 	"change to other place?"
 	self disableStopButton.

@@ -1,4 +1,0 @@
-building
-getCheckboxLabel
-
-	^'Save State'

@@ -1,0 +1,4 @@
+accessing
+beNotSaving
+
+	isSaving := false.

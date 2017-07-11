@@ -1,3 +1,0 @@
-building
-getCheckboxState
-	^self isSaving.

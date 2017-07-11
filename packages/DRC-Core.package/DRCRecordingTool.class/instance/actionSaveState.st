@@ -1,5 +1,5 @@
 actions
 actionSaveState
 
-	self isSaving: self isSaving not.
-	self changed: #getCheckboxState.
+	self toggleSavingNotSaving.
+	self getVisualFeedback.

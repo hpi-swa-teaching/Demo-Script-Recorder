@@ -2,6 +2,7 @@ commands
 record
 		
 	self isInWorld ifFalse: [^ self].
+	self resetSavedState.
 	(self recordingTool isSaving) ifTrue: [self saveStateIn: (self savedObjects)].	
 	self stop;
 	writeCheck;

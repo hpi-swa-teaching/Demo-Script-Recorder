@@ -1,0 +1,3 @@
+building
+getCheckboxState
+	^self isSaving.

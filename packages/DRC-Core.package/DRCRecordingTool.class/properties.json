@@ -9,7 +9,8 @@
 		"recorder",
 		"scriptEditor",
 		"state",
-		"stopButtonEnabled" ],
+		"stopButtonEnabled",
+		"isSaving" ],
 	"name" : "DRCRecordingTool",
 	"pools" : [
 		 ],

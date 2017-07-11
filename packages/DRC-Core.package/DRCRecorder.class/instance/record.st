@@ -1,9 +1,9 @@
 commands
 record
 		
-	self isInWorld ifFalse: [^ self].	
-	self saveStateIn: (self savedObjects);
-	stop;
+	self isInWorld ifFalse: [^ self].
+	(self recordingTool isSaving) ifTrue: [self saveStateIn: (self savedObjects)].	
+	self stop;
 	writeCheck;
 	addJournalFile;
 	pauseTotalTime: 0.

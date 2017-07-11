@@ -14,5 +14,12 @@ buildStorageButtonBar: builder
 				label: 'Save Record';
 				action: #actionSaveRecord;
 				help: 'Saves the current Record in the FileSystem'.
+			builder pluggableCheckBoxSpec new
+				model: self;
+				state: #getCheckboxState;
+				label: #getCheckboxLabel;
+				color: #getCheckboxColor;
+				action: #actionSaveState;
+				help: 'Anything'.
 			};
 		frame: (0@0.36 corner: 1@0.71)

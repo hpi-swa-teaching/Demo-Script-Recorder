@@ -18,8 +18,8 @@ buildRecordingButtonBar: builder
 				help: 'Stops the current record.'.
 			builder pluggableActionButtonSpec new
 				model: self;
-				label: 'Play';
-				action: #actionPlay;
+				label: #getPlayLabel;
+				action: #actionPlayPause;
 				help: 'Plays the current record.'.	
 			builder pluggableActionButtonSpec new
 				model: self;

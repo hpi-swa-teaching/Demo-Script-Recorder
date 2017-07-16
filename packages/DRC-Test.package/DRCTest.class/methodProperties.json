@@ -2,10 +2,13 @@
 	"class" : {
 		"lastStoredRun" : "CL 6/28/2017 09:28" },
 	"instance" : {
+		"testAddJournalFile" : "CL 7/16/2017 14:34",
 		"testDRCRecorder" : "tl 6/28/2017 17:20",
+		"testHasEqualHashWith" : "CL 7/16/2017 14:23",
 		"testJournalFile" : "tl 7/2/2017 14:56",
 		"testLifeTime" : "CL 7/16/2017 12:05",
 		"testMouseCircleInitialization" : "CL 7/16/2017 12:10",
+		"testMouseCircleStepping" : "CL 7/16/2017 14:28",
 		"testNumber" : "fk 5/16/2017 16:45",
 		"testPathLabelChange" : "tl 6/29/2017 16:05",
 		"testPauseButton" : "tl 6/29/2017 22:10",
@@ -13,7 +16,11 @@
 		"testRecordButtonColorChange" : "tl 6/27/2017 17:33",
 		"testRecordButtonLabelChange" : "tl 6/27/2017 17:33",
 		"testRecorderInitialization" : "tl 6/29/2017 22:28",
+		"testRecorderInitialize" : "CL 7/16/2017 14:26",
+		"testRecorderStepping" : "CL 7/16/2017 14:31",
 		"testResetFunction" : "tl 6/29/2017 16:05",
+		"testResetSavedState" : "CL 7/16/2017 14:15",
 		"testSaveFunction" : "tl 6/29/2017 16:05",
-		"testShowing" : "CL 7/16/2017 12:04",
-		"testStepping" : "CL 7/16/2017 12:09" } }
+		"testSaveStateIn" : "CL 7/16/2017 14:08",
+		"testScriptEditorIntialization" : "CL 7/16/2017 12:23",
+		"testShowing" : "CL 7/16/2017 12:04" } }

@@ -1,5 +1,5 @@
 Test-DRCMouseCircle
-testStepping
+testMouseCircleStepping
 | circle |
 circle := DRCMouseCircle new. 
 self assert: circle stepTime equals: 1.

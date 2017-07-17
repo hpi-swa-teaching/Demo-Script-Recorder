@@ -3,6 +3,7 @@
 		"lastStoredRun" : "CL 6/28/2017 09:28" },
 	"instance" : {
 		"testAddJournalFile" : "CL 7/16/2017 14:34",
+		"testCheckTape" : "CL 7/17/2017 12:14",
 		"testDRCRecorder" : "tl 6/28/2017 17:20",
 		"testEventHandling" : "CL 7/16/2017 15:26",
 		"testExecuteScript" : "CL 7/16/2017 22:34",
@@ -29,4 +30,5 @@
 		"testSaveStateIn" : "CL 7/16/2017 14:08",
 		"testScriptEditorBuilder" : "CL 7/16/2017 22:38",
 		"testScriptEditorIntialization" : "CL 7/16/2017 15:39",
-		"testShowing" : "CL 7/16/2017 12:04" } }
+		"testShowing" : "CL 7/16/2017 12:04",
+		"testVisualization" : "CL 7/17/2017 19:38" } }

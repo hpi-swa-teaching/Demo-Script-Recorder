@@ -1,0 +1,14 @@
+{
+	"category" : "DRC-Test",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"button" ],
+	"name" : "MockMouseEvent",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

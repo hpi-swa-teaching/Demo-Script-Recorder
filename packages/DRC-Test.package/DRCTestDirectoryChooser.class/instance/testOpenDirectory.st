@@ -7,4 +7,4 @@ testOpenDirectory
 	directoryChooser initializeAsSystemWindow.
 	[	(Delay forMilliseconds: 200) wait.
 		directoryChooser okHit.] fork.
-	self assert: directoryChooser open class equals: DosFileDirectory.
+	self assert: (directoryChooser open isKindOf: FileDirectory).

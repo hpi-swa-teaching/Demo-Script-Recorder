@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testPathLabelChange" : "CL 7/18/2017 14:02",
+		"testPauseButton" : "CL 7/18/2017 14:02",
+		"testRecordButton" : "CL 7/18/2017 14:03",
+		"testRecordButtonColorChange" : "CL 7/18/2017 14:03",
+		"testRecordButtonLabelChange" : "CL 7/18/2017 14:03",
+		"testRecordingToolBuilder" : "CL 7/18/2017 14:03",
+		"testRecordingToolInitialize" : "CL 7/18/2017 14:04" } }

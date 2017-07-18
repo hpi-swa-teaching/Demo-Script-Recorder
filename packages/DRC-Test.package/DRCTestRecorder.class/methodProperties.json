@@ -1,0 +1,17 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testAddJournalFile" : "CL 7/18/2017 13:56",
+		"testCheckTape" : "CL 7/18/2017 13:56",
+		"testDRCRecorder" : "CL 7/18/2017 13:57",
+		"testEventHandling" : "CL 7/18/2017 13:58",
+		"testHandleListenEvent" : "CL 7/18/2017 13:58",
+		"testHasEqualHashWith" : "CL 7/18/2017 13:58",
+		"testJournalFile" : "CL 7/18/2017 13:58",
+		"testRecorderInitialization" : "CL 7/18/2017 13:58",
+		"testRecorderInitialize" : "CL 7/18/2017 13:59",
+		"testRecorderStepping" : "CL 7/18/2017 13:59",
+		"testResetSavedState" : "CL 7/18/2017 13:59",
+		"testSaveStateIn" : "CL 7/18/2017 13:59",
+		"testVisualization" : "CL 7/18/2017 14:00" } }

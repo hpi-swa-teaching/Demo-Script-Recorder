@@ -1,0 +1,14 @@
+{
+	"category" : "DRC-Test",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "DRCTestDirectoryChooser",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

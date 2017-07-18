@@ -1,0 +1,14 @@
+{
+	"category" : "DRC-Test",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "DRCTestRecordingTool",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

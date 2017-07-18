@@ -1,12 +1,9 @@
 as yet unclassified
 testHandleListenEvent
-| recorder  event |
-recorder := DRCRecorder new.
+| event |
 event := MorphicEvent new.
 
-self assert: (recorder handleListenEvent: event) equals: recorder.
+self assert: (self recorder handleListenEvent: event) equals: self recorder.
 
 "Hier können noch einige Pfade abgelaufen werden"  
 
-
-recorder delete.

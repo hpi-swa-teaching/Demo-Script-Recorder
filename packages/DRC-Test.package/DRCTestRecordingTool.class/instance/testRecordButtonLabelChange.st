@@ -1,17 +1,14 @@
 as yet unclassified
 testRecordButtonLabelChange
 	
-	|recordingTool|
-	recordingTool := DRCRecordingTool new.
-	self assert: recordingTool getLabel equals: 'Start New Record'.
-	recordingTool actionRecord.
-	[recordingTool recorder state = #record] whileFalse: [].
-	self assert: recordingTool getLabel equals: 'Pause Record'.
-	recordingTool actionRecordPause. "Maybe rename: actionPauseResume"
-	self assert: recordingTool getLabel equals: 'Resume Record'.
-	recordingTool actionRecordPause. "Maybe rename: actionPauseResume"
-	[recordingTool recorder state = #record] whileFalse: [].
-	self assert: recordingTool getLabel equals: 'Pause Record'.
-	recordingTool actionStop.
-	self assert: recordingTool getLabel equals: 'Start New Record'.
-	recordingTool delete.
+	self assert: self tool getLabel equals: 'Start New Record'.
+	self tool actionRecord.
+	[self tool recorder state = #record] whileFalse: [].
+	self assert: self tool getLabel equals: 'Pause Record'.
+	self tool actionRecordPause. "Maybe rename: actionPauseResume"
+	self assert: self tool getLabel equals: 'Resume Record'.
+	self tool actionRecordPause. "Maybe rename: actionPauseResume"
+	[self tool recorder state = #record] whileFalse: [].
+	self assert: self tool getLabel equals: 'Pause Record'.
+	self tool actionStop.
+	self assert: self tool getLabel equals: 'Start New Record'.

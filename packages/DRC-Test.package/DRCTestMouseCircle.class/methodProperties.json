@@ -2,7 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testLifeTime" : "CL 7/18/2017 13:55",
-		"testMouseCircleInitialization" : "CL 7/18/2017 13:55",
-		"testMouseCircleStepping" : "CL 7/18/2017 13:55",
-		"testShowing" : "CL 7/18/2017 13:56" } }
+		"circle" : "CL 7/18/2017 15:03",
+		"circle:" : "CL 7/18/2017 15:03",
+		"setUp" : "CL 7/18/2017 15:03",
+		"tearDown" : "CL 7/18/2017 15:03",
+		"testLifeTime" : "CL 7/18/2017 15:04",
+		"testMouseCircleInitialization" : "CL 7/18/2017 15:04",
+		"testMouseCircleStepping" : "CL 7/18/2017 15:05",
+		"testShowing" : "CL 7/18/2017 15:05" } }

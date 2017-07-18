@@ -1,8 +1,4 @@
 as yet unclassified
 testCheckTape
-| recorder |
-recorder := DRCRecorder new.
 
-self assert: (recorder checkTape) equals: recorder. 
-
-recorder delete.
+self assert: (self recorder checkTape) equals: self recorder. 

@@ -2,8 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testExecuteScript" : "CL 7/18/2017 14:05",
-		"testResetFunction" : "CL 7/18/2017 14:05",
-		"testSaveFunction" : "CL 7/18/2017 14:05",
-		"testScriptEditorBuilder" : "CL 7/18/2017 14:05",
-		"testScriptEditorIntialization" : "CL 7/18/2017 14:05" } }
+		"editor" : "CL 7/18/2017 14:20",
+		"editor:" : "CL 7/18/2017 14:21",
+		"setUp" : "CL 7/18/2017 14:21",
+		"tearDown" : "CL 7/18/2017 14:23",
+		"testExecuteScript" : "CL 7/18/2017 14:24",
+		"testResetFunction" : "CL 7/18/2017 14:28",
+		"testSaveFunction" : "CL 7/18/2017 14:28",
+		"testScriptEditorBuilder" : "CL 7/18/2017 14:27",
+		"testScriptEditorIntialization" : "CL 7/18/2017 14:28" } }

@@ -1,12 +1,9 @@
 as yet unclassified
 testExecuteScript
-| editor initialSize endSize |
-editor := DRCScriptEditor new.
+| initialSize endSize |
 initialSize := World dependents size.
-editor code: 'World addDependent: Morph new'.
-editor executeScript.
+self editor code: 'World addDependent: Morph new'.
+self editor executeScript.
 endSize := World dependents size.
 
 self assert: (endSize - initialSize) equals: 1.
-
-editor delete. 

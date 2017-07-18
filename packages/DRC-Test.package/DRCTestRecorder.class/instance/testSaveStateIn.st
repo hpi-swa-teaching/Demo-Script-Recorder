@@ -1,13 +1,8 @@
 as yet unclassified
 testSaveStateIn
-| recorder |
-recorder := DRCRecorder new.
 
+self assert: (self recorder savedObjects isEmpty) equals: true.
 
-self assert: (recorder savedObjects isEmpty) equals: true.
+self recorder saveStateIn: self recorder savedObjects.
 
-recorder saveStateIn: recorder savedObjects.
-
-self assert: (recorder savedObjects isEmpty) equals: true.
-
-recorder delete.
+self assert: (self recorder savedObjects isEmpty) equals: true.

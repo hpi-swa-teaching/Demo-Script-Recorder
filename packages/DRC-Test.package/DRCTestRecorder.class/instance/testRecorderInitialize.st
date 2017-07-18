@@ -1,13 +1,9 @@
 as yet unclassified
 testRecorderInitialize
-| recorder | 
-recorder := DRCRecorder new.
 
-self assert: (recorder savedObjects isEmpty) equals: true.
-self assert: (recorder currentObjectState isEmpty) equals: true.
-self assert: (recorder tapePath) equals: 'no tape selected'.
-self assert: (recorder saved) equals: true.
-self assert: (recorder pauseTotalTime) equals: 0.
-self assert: (recorder pauseStartTime) equals: 0.     
-
-recorder delete.
+self assert: (self recorder savedObjects isEmpty) equals: true.
+self assert: (self recorder currentObjectState isEmpty) equals: true.
+self assert: (self recorder tapePath) equals: 'no tape selected'.
+self assert: (self recorder saved) equals: true.
+self assert: (self recorder pauseTotalTime) equals: 0.
+self assert: (self recorder pauseStartTime) equals: 0.     

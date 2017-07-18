@@ -1,9 +1,6 @@
 as yet unclassified
 testRecorderStepping
-| recorder |
-recorder := DRCRecorder new.
 
-self assert: (recorder stepTime) equals: 500.
-self assert: (recorder wantsSteps) equals: true. 
+self assert: (self recorder stepTime) equals: 500.
+self assert: (self recorder wantsSteps) equals: true. 
 
-recorder delete.

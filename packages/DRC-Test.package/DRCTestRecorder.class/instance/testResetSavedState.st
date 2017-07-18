@@ -1,15 +1,12 @@
 as yet unclassified
 testResetSavedState
-| recorder collection|
-recorder := DRCRecorder new.
+| collection|
 collection := OrderedCollection new.
 collection add: Morph new.
-recorder savedObjects: collection.
+self recorder savedObjects: collection.
 
-self assert: (recorder savedObjects isEmpty) equals: false.
+self assert: (self recorder savedObjects isEmpty) equals: false.
 
-recorder resetSavedState.
+self recorder resetSavedState.
 
-self assert: (recorder savedObjects isEmpty) equals: true. 
-
-recorder delete.
+self assert: (self recorder savedObjects isEmpty) equals: true. 

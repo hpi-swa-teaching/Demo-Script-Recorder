@@ -1,11 +1,8 @@
 as yet unclassified
 testPathLabelChange
 
-	|recordingTool|
-	recordingTool := DRCRecordingTool new.
-	self assert: recordingTool recorder tapePath equals: 'no tape selected'.
-	recordingTool actionRecord.
-	self assert: recordingTool recorder tapePath equals: 'unsaved tape'.
-	recordingTool actionStop.
-	self assert: recordingTool recorder tapePath equals: 'unsaved tape'.
-	recordingTool delete.
+	self assert: self tool recorder tapePath equals: 'no tape selected'.
+	self tool actionRecord.
+	self assert: self tool recorder tapePath equals: 'unsaved tape'.
+	self tool actionStop.
+	self assert: self tool recorder tapePath equals: 'unsaved tape'.

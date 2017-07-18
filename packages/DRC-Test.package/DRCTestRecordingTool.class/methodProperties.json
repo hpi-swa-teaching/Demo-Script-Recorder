@@ -2,10 +2,14 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testPathLabelChange" : "CL 7/18/2017 14:02",
-		"testPauseButton" : "CL 7/18/2017 14:02",
-		"testRecordButton" : "CL 7/18/2017 14:03",
-		"testRecordButtonColorChange" : "CL 7/18/2017 14:03",
-		"testRecordButtonLabelChange" : "CL 7/18/2017 14:03",
-		"testRecordingToolBuilder" : "CL 7/18/2017 14:03",
-		"testRecordingToolInitialize" : "CL 7/18/2017 14:04" } }
+		"setUp" : "CL 7/18/2017 14:43",
+		"tearDown" : "CL 7/18/2017 14:33",
+		"testPathLabelChange" : "CL 7/18/2017 14:40",
+		"testPauseButton" : "CL 7/18/2017 14:40",
+		"testRecordButton" : "CL 7/18/2017 14:40",
+		"testRecordButtonColorChange" : "CL 7/18/2017 14:40",
+		"testRecordButtonLabelChange" : "CL 7/18/2017 14:39",
+		"testRecordingToolBuilder" : "CL 7/18/2017 14:42",
+		"testRecordingToolInitialize" : "CL 7/18/2017 14:40",
+		"tool" : "CL 7/18/2017 14:33",
+		"tool:" : "CL 7/18/2017 14:33" } }

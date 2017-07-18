@@ -1,12 +1,9 @@
 as yet unclassified
 testPauseButton
 
-	|recordingTool|
-	recordingTool := DRCRecordingTool new.
-	self assert: recordingTool recorder pauseStartTime equals: 0.
-	recordingTool actionRecordPause.
-	recordingTool actionRecordPause.
-	recordingTool actionRecordPause.
-	self assert: [recordingTool recorder pauseStartTime > 0].
-	recordingTool actionStop.
-	recordingTool delete.
+	self assert: self tool recorder pauseStartTime equals: 0.
+	self tool actionRecordPause.
+	self tool actionRecordPause.
+	self tool actionRecordPause.
+	self assert: [self tool recorder pauseStartTime > 0].
+	self tool actionStop.

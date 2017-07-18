@@ -1,12 +1,9 @@
 as yet unclassified
 testMouseCircleStepping
-| circle |
-circle := DRCMouseCircle new. 
-self assert: circle stepTime equals: 1.
-self assert: circle wantsSteps equals: true.
 
-circle showAt: (0@0) with: Color red.
-circle step.
-self assert: circle timeToLive equals: (circle defaultTimeToLive - 1).   
+self assert: self circle stepTime equals: 1.
+self assert: self circle wantsSteps equals: true.
 
-circle  delete.
+self circle showAt: (0@0) with: Color red.
+self circle step.
+self assert: self circle timeToLive equals: (self circle defaultTimeToLive - 1).   

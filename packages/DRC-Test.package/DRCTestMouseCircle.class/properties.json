@@ -6,7 +6,7 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"circle" ],
 	"name" : "DRCTestMouseCircle",
 	"pools" : [
 		 ],

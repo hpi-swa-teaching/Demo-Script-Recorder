@@ -1,5 +1,6 @@
 events-processing
 handleListenEvent: anEvent
+	
 	"Record the given event"
 	anEvent hand == recHand ifFalse: [^ self].	"not for me"
 	state == #record ifFalse: [
@@ -8,7 +9,12 @@ handleListenEvent: anEvent
 		^self].
 	anEvent = lastEvent ifTrue: [^ self].
 	(anEvent isKeyboard and:[anEvent keyValue = 27 "esc"])
-		ifTrue: [^  recordingTool actionStop].
+		ifTrue: [^ recordingTool actionStop].
+ 	(anEvent isKeyboard and:[anEvent keyString = '<Cmd-p>' "CTRL--P"])
+		ifTrue: [(state = #record)
+					ifTrue: [^ recordingTool actionPause].
+				(state = #suspendedRecord)	
+					ifTrue: [^ recordingTool actionResume].].
 	time := anEvent timeStamp - self pauseTotalTime.
 	tapeStream nextPut: (anEvent copy setHand: nil; setTimeStamp: (anEvent timeStamp - self pauseTotalTime)).
 	journalFile ifNotNil:

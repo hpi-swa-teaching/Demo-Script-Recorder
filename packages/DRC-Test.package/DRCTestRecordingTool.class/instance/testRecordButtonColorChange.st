@@ -2,13 +2,17 @@ as yet unclassified
 testRecordButtonColorChange
 	
 	"TODO: add test for color if not recording or pausing"
+	|tool|
+	tool := DRCRecordingTool new.
 	
-	self tool actionRecord.
-	[self tool recorder state = #record] whileFalse: [].
-	self assert: self tool getColor equals: Color red.
-	self tool actionRecordPause. "Maybe rename: actionPauseResume"
-	self assert: self tool getColor equals: Color orange.
-	self tool actionRecordPause. "Maybe rename: actionPauseResume"
-	[self tool recorder state = #record] whileFalse: [].
-	self assert: self tool getColor equals: Color red.
-	self tool actionStop.
+	tool actionRecord.
+	[tool recorder state = #record] whileFalse: [].
+	self assert: tool getColor equals: Color red.
+	tool actionRecordPause. "Maybe rename: actionPauseResume"
+	self assert: tool getColor equals: Color orange.
+	tool actionRecordPause. "Maybe rename: actionPauseResume"
+	[tool recorder state = #record] whileFalse: [].
+	self assert: tool getColor equals: Color red.
+	tool actionStop.
+	
+	tool delete.

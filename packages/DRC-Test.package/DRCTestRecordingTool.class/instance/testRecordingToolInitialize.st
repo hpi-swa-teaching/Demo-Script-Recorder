@@ -1,7 +1,11 @@
 as yet unclassified
 testRecordingToolInitialize
 
-self assert: (self tool recorder class) equals: DRCRecorder.
-self assert: (self tool scriptEditor class) equals: DRCScriptEditor.
-self assert: (self tool isSaving) equals: false.
+	|tool|
+	tool := DRCRecordingTool new.
+	
+	self assert: (tool recorder class) equals: DRCRecorder.
+	self assert: (tool scriptEditor class) equals: DRCScriptEditor.
+	self assert: (tool isSaving) equals: false.
  
+	tool delete.

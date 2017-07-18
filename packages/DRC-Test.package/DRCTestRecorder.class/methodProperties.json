@@ -9,6 +9,7 @@
 		"testHandleListenEvent" : "CL 7/18/2017 13:58",
 		"testHasEqualHashWith" : "CL 7/18/2017 13:58",
 		"testJournalFile" : "CL 7/18/2017 13:58",
+		"testReadTape" : "tl 7/18/2017 14:47",
 		"testRecorderInitialization" : "CL 7/18/2017 13:58",
 		"testRecorderInitialize" : "CL 7/18/2017 13:59",
 		"testRecorderStepping" : "CL 7/18/2017 13:59",

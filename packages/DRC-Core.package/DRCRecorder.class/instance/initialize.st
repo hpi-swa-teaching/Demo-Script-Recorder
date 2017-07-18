@@ -8,4 +8,5 @@ initialize
 		tapePath: 'no tape selected'; 
 		saved: true;
 		pauseTotalTime: 0;
+		fileChooser: self createFileChooser;
 		pauseStartTime: 0.

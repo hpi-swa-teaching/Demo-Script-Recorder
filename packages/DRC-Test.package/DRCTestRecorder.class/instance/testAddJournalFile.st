@@ -1,6 +1,7 @@
 as yet unclassified
 testAddJournalFile
 
-self recorder addJournalFile.
-
-self assert: (FileDirectory new fileExists: self recorder journalFile fullName) equals: true. 
+| recorder |
+recorder := DRCRecorder new.
+recorder addJournalFile.
+self assert: (FileDirectory new fileExists: recorder journalFile fullName) equals: true. 

@@ -4,9 +4,15 @@
 	"instance" : {
 		"circle" : "CL 7/18/2017 15:03",
 		"circle:" : "CL 7/18/2017 15:03",
+		"deadTime" : "CL 7/19/2017 20:34",
+		"defaultColor" : "CL 7/19/2017 20:36",
+		"defaultRadiusSize" : "CL 7/19/2017 20:36",
+		"defaultStepTime" : "CL 7/19/2017 20:38",
+		"defaultTimeToLive" : "CL 7/19/2017 20:34",
+		"defaultVerticesSize" : "CL 7/19/2017 20:35",
 		"setUp" : "CL 7/18/2017 15:03",
 		"tearDown" : "CL 7/18/2017 15:03",
-		"testLifeTime" : "CL 7/18/2017 15:04",
-		"testMouseCircleInitialization" : "CL 7/18/2017 15:04",
-		"testMouseCircleStepping" : "CL 7/18/2017 15:05",
+		"testLifeTime" : "CL 7/19/2017 20:34",
+		"testMouseCircleInitialization" : "CL 7/19/2017 20:37",
+		"testMouseCircleStepping" : "CL 7/19/2017 20:38",
 		"testShowing" : "CL 7/18/2017 15:05" } }

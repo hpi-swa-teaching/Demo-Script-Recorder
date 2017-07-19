@@ -1,11 +1,11 @@
 as yet unclassified
 testJournalFile 
 
-	"|tool|
+	|tool|
 	tool := DRCRecordingTool new.
 	self assert: tool recorder journalFile notNil equals: false.
 	tool actionRecord.
 	self assert: tool recorder journalFile notNil equals: true.
 	tool actionStop.
 	
-	tool delete."
+	tool delete.

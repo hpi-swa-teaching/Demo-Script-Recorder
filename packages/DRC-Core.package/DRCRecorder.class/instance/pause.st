@@ -1,5 +1,5 @@
 commands
 pause
 
-	self pauseIn: self currentWorld.
+	self pauseIn: ActiveWorld.
 	self pauseStartTime: Time millisecondClockValue.

@@ -1,4 +1,4 @@
 accessing
-state: anObject
+recorderState: anObject
 
 	state := anObject.

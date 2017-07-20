@@ -1,0 +1,7 @@
+accessing
+disableStopButton
+
+	stopButtonEnabled := true.
+
+
+	

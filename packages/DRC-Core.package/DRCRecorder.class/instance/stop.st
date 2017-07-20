@@ -1,14 +1,14 @@
 commands
 stop
 	
-	(state = #record) 
+	(recorderState = #record) 
 		ifTrue: [tape := tapeStream contents.
 				saved := false].
 	(journalFile) 
 		ifNotNil:	[journalFile close].
-	self pauseIn: self world.
+	self pauseIn: ActiveWorld.
 	tapeStream := nil.
-	state := nil.
+	recorderState := nil.
 	(recordMeter) 
 		ifNotNil: [recordMeter width: 1].
 	self checkTape.

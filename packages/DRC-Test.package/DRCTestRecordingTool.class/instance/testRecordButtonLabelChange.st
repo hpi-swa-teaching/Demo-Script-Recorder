@@ -6,12 +6,12 @@ testRecordButtonLabelChange
 	
 	self assert: tool getLabel equals: 'Start New Record'.
 	tool actionRecord.
-	[tool recorder state = #record] whileFalse: [].
+	[tool recorder recorderState = #record] whileFalse: [].
 	self assert: tool getLabel equals: 'Pause Record'.
 	tool actionRecordPause. "Maybe rename: actionPauseResume"
 	self assert: tool getLabel equals: 'Resume Record'.
 	tool actionRecordPause. "Maybe rename: actionPauseResume"
-	[tool recorder state = #record] whileFalse: [].
+	[tool recorder recorderState = #record] whileFalse: [].
 	self assert: tool getLabel equals: 'Pause Record'.
 	tool actionStop.
 	self assert: tool getLabel equals: 'Start New Record'.

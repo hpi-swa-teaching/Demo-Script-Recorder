@@ -8,7 +8,6 @@
 	"instvars" : [
 		"tape",
 		"time",
-		"state",
 		"deltaTime",
 		"recHand",
 		"playHand",
@@ -27,9 +26,15 @@
 		"pauseTime",
 		"savedObjects",
 		"currentObjectState",
-		"fileChooser" ],
+		"fileChooser",
+		"recorderState",
+		"recorder",
+		"scriptEditor",
+		"state",
+		"stopButtonEnabled",
+		"isSaving" ],
 	"name" : "DRCRecorder",
 	"pools" : [
 		 ],
-	"super" : "AlignmentMorph",
+	"super" : "Model",
 	"type" : "normal" }

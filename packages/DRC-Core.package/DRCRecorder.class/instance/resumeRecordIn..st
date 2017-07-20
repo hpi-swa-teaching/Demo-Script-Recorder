@@ -6,6 +6,6 @@ resumeRecordIn: aWorld
 	recHand addEventListener: self.
 
 	lastEvent := nil.
-	state := #record.
+	recorderState := #record.
 
 	self synchronize.

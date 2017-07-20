@@ -9,6 +9,6 @@ resumePlayIn: aWorld
 
 	lastEvent := nil.
 	lastDelta := 0@0.
-	state := #play.
+	recorderState := #play.
 
 	self synchronize.

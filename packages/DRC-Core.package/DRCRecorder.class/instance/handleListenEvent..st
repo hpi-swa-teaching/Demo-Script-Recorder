@@ -3,7 +3,7 @@ handleListenEvent: anEvent
 	
 	"Record the given event"
 	anEvent hand == recHand ifFalse: [^ self].	"not for me"
-	state == #record ifFalse: [
+	recorderState == #record ifFalse: [
 		"If user got an error while recording and deleted recorder, will still be listening"
 		recHand ifNotNil: [recHand removeEventListener: self].
 		^self].
@@ -11,9 +11,9 @@ handleListenEvent: anEvent
 	(anEvent isKeyboard and:[anEvent keyValue = 27 "esc"])
 		ifTrue: [^ recordingTool actionStop].
  	(anEvent isKeyboard and:[anEvent keyString = '<Cmd-p>' "CTRL--P"])
-		ifTrue: [(state = #record)
+		ifTrue: [(recorderState = #record)
 					ifTrue: [^ recordingTool actionPause].
-				(state = #suspendedRecord)	
+				(recorderState = #suspendedRecord)	
 					ifTrue: [^ recordingTool actionResume].].
 	time := anEvent timeStamp - self pauseTotalTime.
 	tapeStream nextPut: (anEvent copy setHand: nil; setTimeStamp: (anEvent timeStamp - self pauseTotalTime)).

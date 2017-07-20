@@ -1,0 +1,7 @@
+accessing
+isStopButtonEnabled
+
+	^ stopButtonEnabled
+
+
+	

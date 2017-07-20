@@ -1,6 +1,6 @@
 fileIn/Out
 writeTape
-	| args b |
+	"| args b |
 	args := (b := self button: 'writeTape') isNil 
 				ifTrue: [#()]
 				ifFalse: [b arguments].
@@ -9,5 +9,5 @@ writeTape
 			[args first.
 			self writeTape: args first]
 		ifFalse: 
-			[[^self writeTape: (UIManager default request: 'Tape to write'
-								initialAnswer: 'tapeName.tape')] on: Error do: []] .
+			["[^self writeTape: (UIManager default request: 'Tape to write'
+								initialAnswer: 'tapeName.tape')] on: Error do: []"] ."

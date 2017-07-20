@@ -1,4 +1,4 @@
 accessing
-decreaseLifeTime
+decreaseTimeToLive
 
 	self timeToLive: self timeToLive - 1.

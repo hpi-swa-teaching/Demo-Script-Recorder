@@ -2,12 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
-		"decreaseLifeTime" : "fs 7/11/2017 21:29",
+		"decreaseTimeToLive" : "fs 7/20/2017 14:56",
 		"defaultTimeToLive" : "fs 7/20/2017 14:46",
 		"initialize" : "fs 7/20/2017 14:47",
 		"radius" : "fs 7/20/2017 14:50",
 		"showAt:with:" : "fs 7/20/2017 14:49",
-		"step" : "fs 7/11/2017 21:29",
+		"step" : "fs 7/20/2017 14:56",
 		"stepTime" : "fs 7/20/2017 14:50",
 		"timeToLive" : "fs 7/20/2017 14:50",
 		"timeToLive:" : "fs 7/20/2017 14:50",

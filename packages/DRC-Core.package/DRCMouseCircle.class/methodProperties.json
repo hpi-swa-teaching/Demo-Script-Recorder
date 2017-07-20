@@ -3,13 +3,13 @@
 		 },
 	"instance" : {
 		"decreaseLifeTime" : "fs 7/11/2017 21:29",
-		"defaultTimeToLive" : "fs 7/11/2017 21:30",
-		"initialize" : "fs 7/11/2017 21:29",
-		"radius" : "CL 6/11/2017 15:22",
-		"showAt:with:" : "fs 7/11/2017 21:32",
+		"defaultTimeToLive" : "fs 7/20/2017 14:46",
+		"initialize" : "fs 7/20/2017 14:47",
+		"radius" : "fs 7/20/2017 14:50",
+		"showAt:with:" : "fs 7/20/2017 14:49",
 		"step" : "fs 7/11/2017 21:29",
-		"stepTime" : "CL 6/15/2017 21:43",
-		"timeToLive" : "fs 7/11/2017 21:31",
-		"timeToLive:" : "fs 7/11/2017 21:31",
-		"verts" : "CL 6/11/2017 15:22",
-		"wantsSteps" : "CL 6/15/2017 21:43" } }
+		"stepTime" : "fs 7/20/2017 14:50",
+		"timeToLive" : "fs 7/20/2017 14:50",
+		"timeToLive:" : "fs 7/20/2017 14:50",
+		"verts" : "fs 7/20/2017 14:52",
+		"wantsSteps" : "fs 7/20/2017 14:51" } }

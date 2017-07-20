@@ -6,7 +6,7 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"recorder" ],
+		"recordingTool" ],
 	"name" : "DRCTestRecorder",
 	"pools" : [
 		 ],

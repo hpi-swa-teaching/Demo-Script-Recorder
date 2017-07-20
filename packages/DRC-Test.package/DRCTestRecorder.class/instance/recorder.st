@@ -1,4 +1,4 @@
 as yet unclassified
 recorder
 
-	^recorder
+	^recordingTool

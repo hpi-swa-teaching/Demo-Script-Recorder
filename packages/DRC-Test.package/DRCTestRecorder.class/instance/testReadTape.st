@@ -1,10 +1,9 @@
 as yet unclassified
 testReadTape
   
- 	|recorder value|
-	value := 'something'.
- 	recorder := DRCRecorder new.
-		[(Delay forMilliseconds:  200) wait.
-		recorder fileChooser cancelHit.] fork.
-		self assert: recorder readTape isNil.
+ 	| mockrecorder |
+	mockrecorder := MockRecorder new.
+	self assert: (mockrecorder tape) equals: nil.
+	mockrecorder readTape.
+	self assert: (mockrecorder tape) equals: #(). 
 		

@@ -9,3 +9,5 @@ testWriteTape
 	path := mockrecorder tapePath.
 	self assert: (path = 'no tape selected') equals: false. 
 	self assert: (path = 'unsaved tape') equals: false.
+	
+	mockrecorder delete.

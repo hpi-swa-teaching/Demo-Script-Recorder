@@ -1,3 +1,0 @@
-accessing
-recorderState
-	^recorderState

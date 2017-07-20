@@ -1,4 +1,4 @@
 accessing
 recorderState: anObject
-
-	state := anObject.
+	
+	recorderState := anObject.

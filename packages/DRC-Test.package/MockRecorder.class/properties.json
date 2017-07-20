@@ -10,5 +10,5 @@
 	"name" : "MockRecorder",
 	"pools" : [
 		 ],
-	"super" : "DRCRecorder",
+	"super" : "DRCRecordingTool",
 	"type" : "normal" }

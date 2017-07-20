@@ -1,4 +1,0 @@
-accessing
-beNotSaving
-
-	isSaving := false.

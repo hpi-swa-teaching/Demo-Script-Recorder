@@ -19,4 +19,6 @@
 		"testRecorderStepping" : "CL 7/18/2017 14:51",
 		"testResetSavedState" : "CL 7/18/2017 14:51",
 		"testSaveStateIn" : "CL 7/18/2017 14:52",
-		"testVisualization" : "CL 7/18/2017 14:53" } }
+		"testVisualization" : "CL 7/18/2017 14:53",
+		"testWriteFileNamed" : "CL 7/20/2017 11:07",
+		"testWriteTape" : "CL 7/20/2017 11:19" } }

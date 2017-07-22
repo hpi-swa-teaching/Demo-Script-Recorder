@@ -1,12 +1,13 @@
-accessing
-verts
+calculation
+calculateVertices
 	
 	| size points centralAngle |
 	
 	size := 100.
-	centralAngle := 360.0/size.
+	centralAngle := 360.0 / size.
 	points := OrderedCollection new.
-	0 to: size  do:
+	
+	0 to: size  do: "TODO"
 		[:idx | |angle pt|
 			angle := centralAngle * idx.
 			pt := angle degreeSin @ angle degreeCos.

@@ -2,7 +2,8 @@ initialization
 initialize 
 
 	super initialize.
-	self timeToLive: -1;
-	vertices: self verts color: Color red borderWidth: 6 borderColor: Color red;
-	makeOpen;
-	lock.
+	self 
+		timeToLive: self invalidTimeToLive;
+		vertices: self calculateVertices color: self defaultColor borderWidth: self defaultBorderWidth borderColor: self defaultColor;
+		makeOpen;
+		lock.

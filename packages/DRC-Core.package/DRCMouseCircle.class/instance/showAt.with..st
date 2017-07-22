@@ -1,7 +1,8 @@
 showing
-showAt: aPosition with: aColor
+showAt: aPoint with: aColor
 
-	self position: aPosition x @ aPosition y - self radius;
-	borderColor: aColor;
-	timeToLive: self defaultTimeToLive;
-	openInWorld.
+	self 
+		position: aPoint x @ aPoint y - self radius;
+		borderColor: aColor;
+		timeToLive: self defaultTimeToLive;
+		openInWorld.

@@ -1,4 +1,4 @@
 accessing
-code: anObject
+code: aText
 
-	code := anObject.
+	code := aText.

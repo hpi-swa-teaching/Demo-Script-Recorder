@@ -1,4 +1,4 @@
 stepping and presenter
 wantsSteps
 
-	^true
+	^ true

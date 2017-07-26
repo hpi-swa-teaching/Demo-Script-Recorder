@@ -3,6 +3,16 @@ Demo Script Recorder
 
 This projects aims at improving and adding expanded functionality to the preexisting event recorder.
 
+Install the tool by either downloading the .sar-File, dropping it into Squeak and selecting `install SAR` or by executing the following code in an open Workspace:
+```Smalltalk
+Metacello new
+  baseline: 'DRC';
+  repository: 'github://HPI-SWA-Teaching/SWT17-Project-09:master/packages';
+  onConflict: [:ex | ex allow];
+  onLock: [:ex | ex allow];
+  load.
+```
+
 You can start the Recorder by simply typing 
 ```Smalltalk
 DRCRecordingTool open

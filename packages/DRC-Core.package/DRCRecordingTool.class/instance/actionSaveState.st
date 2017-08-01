@@ -1,5 +1,6 @@
 actions
 actionSaveState
 
-	self toggleSavingNotSaving.
-	self getVisualFeedback.
+	self 
+		toggleIsSaving;
+		getVisualFeedback.

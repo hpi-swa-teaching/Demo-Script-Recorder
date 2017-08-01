@@ -1,5 +1,6 @@
 actions
 actionPause
 
-	self recorder pause.
-	self getVisualFeedback.
+	self 
+		pause;
+		getVisualFeedback.

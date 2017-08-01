@@ -1,5 +1,6 @@
 actions
 actionLoadRecord
 
-	self recorder readTape.
-	self changed: #currentTapePath.
+	self 
+		readTape;
+		changed: #currentTapePath.

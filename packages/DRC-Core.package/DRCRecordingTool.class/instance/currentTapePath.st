@@ -1,4 +1,4 @@
 building
 currentTapePath
 
-	^ self recorder tapePath
+	^ self tapePath

@@ -1,5 +1,6 @@
 actions
 actionResume
 
-	self recorder resume.
-	self getVisualFeedback.
+	self 
+		resume;
+		getVisualFeedback.

@@ -18,6 +18,6 @@ buildStorageButtonBar: builder
 				model: self;
 				label: #getSaveStateLabel;
 				action: #actionSaveState;
-				help: 'If "save state" is "on" the squeak state at the beginnig of a recording will be safed. If the recording is later played the saved state will be restored.'.
+				help: 'Create a backup of your current Squeak image state to recreate it by playing the tape.'.
 			};
 		frame: (0@0.36 corner: 1@0.71)

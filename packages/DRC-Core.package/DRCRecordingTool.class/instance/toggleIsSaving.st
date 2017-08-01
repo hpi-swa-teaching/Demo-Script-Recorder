@@ -1,4 +1,4 @@
 accessing
-toggleSavingNotSaving
+toggleIsSaving
 
 	isSaving := self isSaving not.

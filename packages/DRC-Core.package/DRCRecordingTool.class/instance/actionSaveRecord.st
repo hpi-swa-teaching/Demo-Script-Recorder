@@ -1,5 +1,6 @@
 actions
 actionSaveRecord
 
-	self recorder writeTape.
-	self changed: #currentTapePath.
+	self 
+		writeTape;
+		changed: #currentTapePath.

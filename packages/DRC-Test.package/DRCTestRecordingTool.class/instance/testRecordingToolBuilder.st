@@ -15,7 +15,7 @@ testRecordingToolBuilder
 	self assert: (spec children size) equals: 3.
 	self assert: (spec children at: 1) help equals: 'Loads a Record from the FileSystem'.
 	self assert: (spec children at: 2) help equals: 'Saves the current Record in the FileSystem'.
-	self assert: (spec children at: 3) help equals: 'If "save state" is "on" the squeak state at the beginnig of a recording will be safed. If the recording is later played the saved state will be restored.'.
+	self assert: (spec children at: 3) help equals: 'Create a backup of your current Squeak image state to recreate it by playing the tape.'.
 
 	spec := tool buildPathInfo: ToolBuilder new.
 	self assert: spec getText equals: #currentTapePath.

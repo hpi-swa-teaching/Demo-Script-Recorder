@@ -1,8 +1,9 @@
 building
 getVisualFeedback
 
-	self changed: #getColor.
-	self changed: #getLabel.
-	self changed: #isStopButtonEnabled.
-	self changed: #getSaveStateLabel.
-	self changed: #getPlayLabel.
+	self 
+		changed: #getColor;
+	 	changed: #getLabel;
+	  	changed: #isStopButtonEnabled;
+		changed: #getSaveStateLabel;
+	 	changed: #getPlayLabel.

@@ -8,4 +8,4 @@ record
 	addJournalFile;
 	pauseTotalTime: 0.
 	tapeStream := WriteStream on: (Array new: 10000).
-	self resumeRecordIn: ActiveWorld.		
+	self resumeRecord.		

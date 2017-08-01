@@ -1,5 +1,9 @@
 pause/resume
 resume
 
-	self resumeIn: self currentWorld.
 	self pauseTotalTime:  self pauseTotalTime + (Time millisecondClockValue - self pauseStartTime).
+	self recorderState = #suspendedPlay 
+		ifTrue: [self resumePlay].
+	self recorderState = #suspendedRecord 
+		ifTrue: [self resumeRecord].
+

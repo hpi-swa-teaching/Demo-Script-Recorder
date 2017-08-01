@@ -8,9 +8,9 @@ testRecordButtonColorChange
 	tool actionRecord.
 	[tool recorder recorderState = #record] whileFalse: [].
 	self assert: tool getColor equals: Color red.
-	tool actionRecordPause. "Maybe rename: actionPauseResume"
+	tool actionToggleRecordPause. "Maybe rename: actionPauseResume"
 	self assert: tool getColor equals: Color orange.
-	tool actionRecordPause. "Maybe rename: actionPauseResume"
+	tool actionToggleRecordPause. "Maybe rename: actionPauseResume"
 	[tool recorder recorderState = #record] whileFalse: [].
 	self assert: tool getColor equals: Color red.
 	tool actionStop.

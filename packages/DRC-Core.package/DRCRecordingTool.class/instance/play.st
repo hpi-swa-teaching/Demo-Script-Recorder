@@ -5,4 +5,4 @@ play
 	self stop.
 	tape ifNil: [^ self].
 	tapeStream := ReadStream on: tape.
-	self resumePlayIn: ActiveWorld.
+	self resumePlay.

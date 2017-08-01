@@ -1,10 +1,9 @@
 actions
 actionRecord
 	
-	self recorder tapePath: 'unsaved tape'.
-	self changed: #currentTapePath.
-	self recorder record.
-	self enableStopButton;
+	self 
+		tapePath: 'unsaved tape';
+		changed: #currentTapePath;
+		enableStopButton;
+		record;
 		getVisualFeedback.
-	
-	

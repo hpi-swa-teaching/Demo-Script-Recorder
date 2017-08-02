@@ -1,17 +1,17 @@
 calculation
 calculateVertices
 	
-	"FABI FABI FABI :)"
-	| size points centralAngle |
+	| points centralAngle |
 	
-	size := 100.
-	centralAngle := 360.0 / size.
+	centralAngle := self circleDegrees / self distanceVertices.
 	points := OrderedCollection new.
 	
-	0 to: size  do: "TODO"
-		[:idx | |angle pt|
+	0 to: self distanceVertices  do: "TODO!!!!"
+		[:idx | 
+			|angle point|
+			
 			angle := centralAngle * idx.
-			pt := angle degreeSin @ angle degreeCos.
-			points add: (pt * self radius) rounded + self radius + 10.].
+			point := (angle degreeSin @ angle degreeCos).
+			points add: (point * self radius) rounded + self radius + 10.].
 	
 	^ points

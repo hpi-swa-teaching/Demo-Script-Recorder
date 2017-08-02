@@ -1,0 +1,4 @@
+constants
+distanceVertices
+	
+	^ 100

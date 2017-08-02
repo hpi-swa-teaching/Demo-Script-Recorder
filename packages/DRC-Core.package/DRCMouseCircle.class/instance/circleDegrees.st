@@ -1,0 +1,4 @@
+constants
+circleDegrees
+
+	^ 360

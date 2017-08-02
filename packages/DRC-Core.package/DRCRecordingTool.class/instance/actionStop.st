@@ -3,5 +3,4 @@ actionStop
 
 	self 
 		stop;
-		disableStopButton;
 		getVisualFeedback.

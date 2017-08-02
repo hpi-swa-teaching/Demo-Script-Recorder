@@ -1,6 +1,7 @@
 calculation
 calculateVertices
 	
+	"FABI FABI FABI :)"
 	| size points centralAngle |
 	
 	size := 100.

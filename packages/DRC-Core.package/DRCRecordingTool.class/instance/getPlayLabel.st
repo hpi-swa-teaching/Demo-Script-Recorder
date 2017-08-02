@@ -1,8 +1,8 @@
 building
 getPlayLabel
 
-	(self recorder recorderState = #play)
+	(self recorderState = #play)
 		ifTrue: [^ 'Pause Playing']
-		ifFalse:[(self recorder recorderState = #suspendedPlay)
+		ifFalse:[(self recorderState = #suspendedPlay)
 					ifTrue: [^ 'Resume Playing'.]
 					ifFalse:[^ 'Play'.]]

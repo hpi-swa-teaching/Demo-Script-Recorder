@@ -8,7 +8,6 @@ self assert: (self recorder nextEventToPlay class) equals: (MorphicUnknownEvent 
 self recorder synchronize.
 
 self assert: (self recorder deltaTime) equals: nil.
-self assert: (self recorder pauseTime) equals: 0.
 self assert: (self recorder time notNil) equals: true.
 
 self recorder deltaTimeFor: MorphicEvent new until: 0.

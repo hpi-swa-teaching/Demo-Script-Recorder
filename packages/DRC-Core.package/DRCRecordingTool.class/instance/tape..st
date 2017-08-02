@@ -1,3 +1,4 @@
 accessing
 tape: anArray
-	tape := anArray
+
+	tape := anArray.

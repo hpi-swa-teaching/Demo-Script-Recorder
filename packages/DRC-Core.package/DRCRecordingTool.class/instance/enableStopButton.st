@@ -1,7 +1,0 @@
-accessing
-enableStopButton
-
-	stopButtonEnabled := true.
-
-
-	

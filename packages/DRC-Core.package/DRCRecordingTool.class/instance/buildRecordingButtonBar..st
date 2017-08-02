@@ -14,7 +14,6 @@ buildRecordingButtonBar: builder
 				model: self;
 				label: 'Stop';
 				action: #actionStop;
-				enabled: #isStopButtonEnabled;
 				help: 'Stops the current record.'.
 			builder pluggableActionButtonSpec new
 				model: self;

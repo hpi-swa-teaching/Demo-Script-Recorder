@@ -1,8 +1,9 @@
-accessing
+fileIn/Out
 directoryChooser
 
-| dirChooser |
-dirChooser := DRCDirectoryChooser new.
-dirChooser initializeAsSystemWindow.
-dirChooser setSuffixes: {'tape'}.
-^ dirChooser.
+	| dirChooser |
+	dirChooser := DRCDirectoryChooser new.
+	dirChooser 
+		initializeAsSystemWindow;
+	 	setSuffixes: {'tape'}.
+	^ dirChooser.

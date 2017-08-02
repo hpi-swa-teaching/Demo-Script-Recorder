@@ -1,4 +1,0 @@
-accessing
-paused
-	
-	^ paused

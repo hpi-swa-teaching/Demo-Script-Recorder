@@ -2,7 +2,7 @@ commands
 record
 		
 	self resetSavedState.
-	(self recordingTool isSaving) ifTrue: [self saveStateIn: (self savedObjects)].	
+	(self isSaving) ifTrue: [self saveStateIn: (self savedObjects)].	
 	self stop;
 	writeCheck;
 	addJournalFile;

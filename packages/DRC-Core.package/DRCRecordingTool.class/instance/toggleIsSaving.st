@@ -1,4 +1,4 @@
 accessing
 toggleIsSaving
 
-	isSaving := self isSaving not.
+	self isSaving: self isSaving not.

@@ -1,4 +1,4 @@
 accessing
-tapePath: anObject
+tapePath: aPath
 	
-	tapePath := anObject.
+	tapePath := aPath.

@@ -5,4 +5,4 @@ testConvertV0Tape
 	tool := DRCRecordingTool new.
 	tool actionRecord.
 	tool actionStop.
-	self assert: (tool recorder convertV0Tape: tool recorder tape) equals: #().
+	self assert: (tool convertV0Tape: tool tape) equals: #().

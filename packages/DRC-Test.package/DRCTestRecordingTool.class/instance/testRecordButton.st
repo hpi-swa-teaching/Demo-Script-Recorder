@@ -4,10 +4,10 @@ testRecordButton
 	|tool|
 	tool := DRCRecordingTool new.
 	
-	self assert: tool recorder recorderState  equals: nil.
+	self assert: tool recorderState  equals: nil.
 	tool actionRecord.
-	self assert: tool recorder recorderState equals: #record.
+	self assert: tool recorderState equals: #record.
 	tool actionStop.
-	self assert: tool recorder recorderState equals: nil.
+	self assert: tool recorderState equals: nil.
 	
 	tool delete.

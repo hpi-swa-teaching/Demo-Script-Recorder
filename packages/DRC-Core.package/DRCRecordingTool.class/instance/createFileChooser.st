@@ -1,8 +1,9 @@
-accessing
+fileIn/Out
 createFileChooser
 
-| fileChooser |
-fileChooser := FileChooser new.
-fileChooser initializeAsSystemWindow.
-fileChooser setSuffixes: {'tape'}.
-^ fileChooser
+	| fileChooser |
+	fileChooser := FileChooser new.
+	fileChooser 
+		initializeAsSystemWindow;
+	 	setSuffixes: {'tape'}.
+	^ fileChooser

@@ -2,9 +2,8 @@ commands
 record
 		
 	self resetSavedState.
-	(self isSaving) ifTrue: [self saveStateIn: (self savedObjects)].	
-	self 
-		stop;
+	self isSaving ifTrue: [self saveStateIn: self savedObjects.].
+	self
 		writeCheck;
 		addJournalFile;
 		pauseTotalTime: 0;

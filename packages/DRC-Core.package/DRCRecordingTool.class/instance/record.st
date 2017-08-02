@@ -6,6 +6,6 @@ record
 	self
 		writeCheck;
 		addJournalFile;
-		pauseTotalTime: 0;
-		tapeStream: (WriteStream on: (Array new: 10000));
+		pauseTotalTime: self initialPauseTotalTime;
+		tapeStream: (WriteStream on: (Array new: self initialTapeStreamSize));
 		resumeRecord.		

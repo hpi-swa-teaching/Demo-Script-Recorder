@@ -1,0 +1,4 @@
+constants
+initialPauseTotalTime
+
+	^ 0

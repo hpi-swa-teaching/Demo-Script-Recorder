@@ -1,7 +1,7 @@
 pause-resume
 resumeRecord
 
-	self recHand: (ActiveWorld activeHand ifNil: [ActiveWorld primaryHand]).
+	self recHand: (ActiveWorld activeHand ifNil: [ActiveWorld primaryHand.]).
 	self recHand 
 		newKeyboardFocus: ActiveWorld;
 		addEventListener: self.

@@ -38,7 +38,8 @@
 		"getPlayLabel" : "tl 8/2/2017 15:05",
 		"getSaveStateLabel" : "tl 8/2/2017 15:23",
 		"getVisualFeedback" : "tl 8/2/2017 14:26",
-		"handleListenEvent:" : "tl 7/20/2017 13:20",
+		"handleKeyboardInput:" : "fk 8/2/2017 19:11",
+		"handleListenEvent:" : "fk 8/2/2017 19:11",
 		"hasEqualHashWith:" : "tl 8/2/2017 14:53",
 		"initialize" : "tl 8/2/2017 14:42",
 		"initializePlayHand" : "tl 8/2/2017 00:21",
@@ -104,6 +105,7 @@
 		"visualizeMouseEvent:" : "tl 8/2/2017 15:51",
 		"wantsSteps" : "CL 7/22/2017 16:17",
 		"writeCheck" : "fs 8/2/2017 18:17",
+		"writeEventToTape:" : "fk 8/2/2017 19:12",
 		"writeFileNamed:" : "CL 7/10/2017 15:35",
 		"writeTape" : "tl 7/20/2017 14:11",
 		"writeTape:" : "tl 7/20/2017 14:11" } }

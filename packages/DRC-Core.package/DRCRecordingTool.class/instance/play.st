@@ -3,6 +3,6 @@ play
 
 	(self savedObjects notEmpty) ifTrue: [self recreateStateFrom: (self savedObjects)].
 	self stop.
-	tape ifNil: [^ self].
-	tapeStream := ReadStream on: tape.
+	self tape ifNil: [^ self].
+	self tapeStream: (ReadStream on: self tape).
 	self resumePlay.

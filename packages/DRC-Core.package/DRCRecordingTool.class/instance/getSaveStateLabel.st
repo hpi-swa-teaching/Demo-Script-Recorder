@@ -1,6 +1,6 @@
 building
 getSaveStateLabel
 
-	^ self isSaving 
+	self isSaving 
 		ifTrue: [^ 'Save State: On'] 
 		ifFalse:  [^ 'Save State: Off']

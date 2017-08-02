@@ -7,3 +7,4 @@ actionTogglePlayPause
 					ifFalse: [(self recorderState = #suspendedPlay)
 								ifTrue: [self actionResume.]
 								ifFalse: [self actionPlay.]]].
+

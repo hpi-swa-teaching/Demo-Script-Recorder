@@ -1,4 +1,4 @@
-pause/resume
+pause-resume
 pauseIn: aWorld
 
 	self recorderState = #play 

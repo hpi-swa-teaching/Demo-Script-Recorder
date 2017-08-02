@@ -1,4 +1,4 @@
-fileIn/Out
+fileIn-Out
 readTape: aMultiByteFileStream 
 	self writeCheck.
 	

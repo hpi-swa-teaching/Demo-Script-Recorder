@@ -1,4 +1,4 @@
-fileIn/Out
+fileIn-Out
 writeFileNamed: fileName
 	
 	| directory file delta|

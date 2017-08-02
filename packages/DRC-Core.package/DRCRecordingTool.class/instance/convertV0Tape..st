@@ -1,4 +1,4 @@
-fileIn/Out
+fileIn-Out
 convertV0Tape: anArray
 	"Convert the tape into the new format"
 	| lastKey |

@@ -1,4 +1,4 @@
-event handling
+event-handling
 synchronize
 	
 	self 

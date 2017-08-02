@@ -1,9 +1,10 @@
 visualization
 visualizeMouseEvent: aMouseEvent
 
-	| aMouseCircle |
+	| aMouseCircle aColor|
 	aMouseCircle := DRCMouseCircle new.
-	
-	aMouseEvent blueButtonPressed ifTrue: [aMouseCircle showAt: aMouseEvent position with: Color blue].
-	aMouseEvent redButtonPressed ifTrue: [aMouseCircle showAt: aMouseEvent position with: Color red].
-	aMouseEvent yellowButtonPressed ifTrue: [aMouseCircle showAt: aMouseEvent position with: Color yellow].
+	aColor := nil.
+	aMouseEvent blueButtonPressed ifTrue: [aColor := Color blue.].
+	aMouseEvent redButtonPressed ifTrue: [aColor := Color red.].
+	aMouseEvent yellowButtonPressed ifTrue: [aColor := Color yellow].
+	aMouseCircle showAt: aMouseEvent position with: aColor

@@ -1,4 +1,4 @@
-event handling
+event-handling
 objectTrackingEvents
 
 	^ nil

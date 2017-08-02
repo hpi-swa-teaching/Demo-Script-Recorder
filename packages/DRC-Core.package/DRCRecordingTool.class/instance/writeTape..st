@@ -1,4 +1,4 @@
-fileIn/Out
+fileIn-Out
 writeTape: fileName 
 	| name |
 	name := self writeFileNamed: fileName.

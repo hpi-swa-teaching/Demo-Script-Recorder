@@ -1,4 +1,4 @@
-fileIn/Out
+fileIn-Out
 writeTape
 	
 	[^self writeTape: (UIManager default request: 'Tape to write'

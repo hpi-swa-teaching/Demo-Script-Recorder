@@ -1,4 +1,4 @@
-pause/resume
+pause-resume
 pauseRecordingTape
 
 	self recorderState: #suspendedRecord.

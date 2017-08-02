@@ -1,4 +1,4 @@
-pause/resume
+pause-resume
 initializePlayHand
 
 	self playHand: (HandMorphForReplay new recorder: self).

@@ -1,4 +1,4 @@
-fileIn/Out
+fileIn-Out
 readFromV0: aStream
 	^Array streamContents:[:tStream | | evt line t lineStream |
 		[aStream atEnd] whileFalse:

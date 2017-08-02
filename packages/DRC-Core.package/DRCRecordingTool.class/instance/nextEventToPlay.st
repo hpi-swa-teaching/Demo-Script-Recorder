@@ -1,4 +1,4 @@
-event handling
+event-handling
 nextEventToPlay
 
 	| nextEvent now nextTime lastP delta |

@@ -1,4 +1,4 @@
-fileIn/Out
+fileIn-Out
 checkTape
 	"See if this tape was already converted to the new format"
 

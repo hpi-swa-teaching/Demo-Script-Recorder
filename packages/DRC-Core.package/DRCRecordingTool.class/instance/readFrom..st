@@ -1,4 +1,4 @@
-fileIn/Out
+fileIn-Out
 readFrom: aStream
 	"Private"
 	| header |

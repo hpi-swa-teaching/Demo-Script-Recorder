@@ -1,4 +1,4 @@
-pause/resume
+pause-resume
 resume
 
 	self pauseTotalTime:  self pauseTotalTime + (Time millisecondClockValue - self pauseStartTime).

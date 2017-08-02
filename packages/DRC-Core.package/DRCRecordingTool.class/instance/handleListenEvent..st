@@ -1,4 +1,4 @@
-events-processing
+event-processing
 handleListenEvent: anEvent
 	
 	"Record the given event"

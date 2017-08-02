@@ -1,4 +1,4 @@
-fileIn/Out
+fileIn-Out
 readTape
 	|  file |
 	self saveStateIn: (self savedObjects).

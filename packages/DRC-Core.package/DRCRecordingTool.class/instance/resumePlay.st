@@ -1,4 +1,4 @@
-pause/resume
+pause-resume
 resumePlay
 
 	self 

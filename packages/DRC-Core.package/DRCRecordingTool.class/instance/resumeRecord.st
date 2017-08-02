@@ -1,4 +1,4 @@
-pause/resume
+pause-resume
 resumeRecord
 
 	self recHand: (ActiveWorld activeHand ifNil: [ActiveWorld primaryHand]).

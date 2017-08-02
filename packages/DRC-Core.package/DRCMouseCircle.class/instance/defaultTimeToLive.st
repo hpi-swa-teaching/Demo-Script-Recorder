@@ -1,4 +1,4 @@
 constants
 defaultTimeToLive
 
-	^ 20.
+	^ 20

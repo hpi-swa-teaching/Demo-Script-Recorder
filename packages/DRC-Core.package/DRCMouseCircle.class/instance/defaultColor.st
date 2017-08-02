@@ -1,4 +1,4 @@
 constants
 defaultColor
 
-	^ Color red.
+	^ Color red

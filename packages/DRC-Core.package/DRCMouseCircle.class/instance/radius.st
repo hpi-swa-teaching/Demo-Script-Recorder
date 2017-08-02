@@ -1,4 +1,4 @@
 constants
 radius
 
-	^ 40.
+	^ 40

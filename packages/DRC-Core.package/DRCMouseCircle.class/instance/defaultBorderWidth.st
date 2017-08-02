@@ -1,4 +1,4 @@
 constants
 defaultBorderWidth
 
-	^ 6.
+	^ 6

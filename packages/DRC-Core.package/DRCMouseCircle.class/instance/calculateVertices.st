@@ -13,4 +13,4 @@ calculateVertices
 			pt := angle degreeSin @ angle degreeCos.
 			points add: (pt * self radius) rounded + self radius + 10.].
 	
-	^ points.
+	^ points

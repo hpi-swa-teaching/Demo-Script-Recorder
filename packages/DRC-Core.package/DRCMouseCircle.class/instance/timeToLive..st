@@ -1,3 +1,4 @@
 accessing
 timeToLive: anInteger
-	timeToLive := anInteger
+
+	timeToLive := anInteger.

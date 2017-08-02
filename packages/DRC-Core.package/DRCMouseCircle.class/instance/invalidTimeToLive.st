@@ -1,4 +1,4 @@
 constants
 invalidTimeToLive
 
-	^ -1.
+	^ -1

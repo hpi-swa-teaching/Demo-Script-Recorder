@@ -1,4 +1,4 @@
 stepping
 stepTime
 
-	^ 1.
+	^ 1

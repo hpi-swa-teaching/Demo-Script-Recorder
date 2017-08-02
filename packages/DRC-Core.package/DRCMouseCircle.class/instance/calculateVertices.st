@@ -1,17 +1,17 @@
 calculation
 calculateVertices
 	
-	| points distanceVertices |
+	| vertices angleStepRange |
 	
-	distanceVertices := self circleDegrees / self numberVertices.
-	points := OrderedCollection new.
+	angleStepRange := self circleDegrees / self numberVertices.
+	vertices := OrderedCollection new.
 	
-	0 to: self numberVertices  do: "TODO!!!!"
-		[:idx | 
-			|angle point|
+	0 to: self numberVertices do: "TODO!!!!"
+		[:pointID | 
+			|angle vertex|
 			
-			angle := distanceVertices * idx.
-			point := (angle degreeSin @ angle degreeCos).
-			points add: (point * self radius) rounded + self radius + 10.].
+			angle := angleStepRange * pointID.
+			vertex := (angle degreeSin @ angle degreeCos).
+			vertices add: (vertex * self radius) rounded.].
 	
-	^ points
+	^ vertices

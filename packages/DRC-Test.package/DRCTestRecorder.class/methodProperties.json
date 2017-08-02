@@ -15,7 +15,6 @@
 		"testJournalFile" : "tl 8/2/2017 14:43",
 		"testReadTape" : "CL 7/20/2017 12:22",
 		"testRecorderInitialization" : "tl 8/2/2017 14:54",
-		"testRecorderStepping" : "tl 8/2/2017 14:54",
 		"testResetSavedState" : "tl 8/2/2017 14:55",
 		"testSaveStateIn" : "tl 8/2/2017 14:55",
 		"testVisualization" : "tl 8/2/2017 14:56",

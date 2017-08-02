@@ -1,16 +1,16 @@
 calculation
 calculateVertices
 	
-	| points centralAngle |
+	| points distanceVertices |
 	
-	centralAngle := self circleDegrees / self distanceVertices.
+	distanceVertices := self circleDegrees / self numberVertices.
 	points := OrderedCollection new.
 	
-	0 to: self distanceVertices  do: "TODO!!!!"
+	0 to: self numberVertices  do: "TODO!!!!"
 		[:idx | 
 			|angle point|
 			
-			angle := centralAngle * idx.
+			angle := distanceVertices * idx.
 			point := (angle degreeSin @ angle degreeCos).
 			points add: (point * self radius) rounded + self radius + 10.].
 	

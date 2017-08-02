@@ -2,16 +2,16 @@
 	"class" : {
 		 },
 	"instance" : {
-		"calculateVertices" : "fs 8/2/2017 17:03",
+		"calculateVertices" : "fs 8/2/2017 18:57",
 		"circleDegrees" : "fs 8/2/2017 16:43",
 		"decreaseTimeToLive" : "fs 7/20/2017 14:56",
 		"defaultBorderWidth" : "fs 8/2/2017 14:01",
 		"defaultColor" : "fs 8/2/2017 14:02",
 		"defaultTimeToLive" : "fs 8/2/2017 14:02",
-		"distanceVertices" : "fs 8/2/2017 16:38",
 		"initialize" : "tl 8/2/2017 14:15",
 		"initializeVertices" : "tl 8/2/2017 14:15",
 		"invalidTimeToLive" : "fs 8/2/2017 14:02",
+		"numberVertices" : "fs 8/2/2017 19:08",
 		"radius" : "fs 8/2/2017 16:57",
 		"showAt:with:" : "fs 8/2/2017 16:56",
 		"step" : "tl 8/2/2017 14:16",

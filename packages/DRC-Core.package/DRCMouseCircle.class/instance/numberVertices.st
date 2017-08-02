@@ -1,4 +1,4 @@
 constants
-distanceVertices
+numberVertices
 	
 	^ 100

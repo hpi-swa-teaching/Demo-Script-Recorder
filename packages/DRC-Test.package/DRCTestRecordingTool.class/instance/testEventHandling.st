@@ -8,7 +8,7 @@ testEventHandling
 	self recordingTool synchronize.
 	self 
 		assert: (self recordingTool deltaTime) equals: nil;
-		assert: (self recordingTool currentTimeStamp notNil) equals: true.
+		assert: (self recordingTool currentTimestamp notNil) equals: true.
 
 	self recordingTool deltaTimeFor: MorphicEvent new until: 0.
 	self assert: (self recordingTool deltaTime <= 0) equals: true.  

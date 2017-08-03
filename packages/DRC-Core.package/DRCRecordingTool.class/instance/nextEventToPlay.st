@@ -8,13 +8,12 @@ nextEventToPlay
 	currentPointInTime := Time millisecondClockValue.
 	nextEvent := self tapeStream next.
 	nextPointInTime := self deltaTimeFor: nextEvent until: currentPointInTime.
-	
-	(currentPointInTime < self currentTimeStamp) ifTrue: [^ self handleInvalidTimestamp: currentPointInTime.].
-	self currentTimeStamp: currentPointInTime.
-	(currentPointInTime >= nextPointInTime) ifTrue: [^ self handleMouseEvent: nextEvent at: nextPointInTime.].
-		
-	self setTapeStreamToLastEvent. 
-	
+	(currentPointInTime < self currentTimestamp) ifTrue: [^ self handleInvalidTimestamp: currentPointInTime].
+	self currentTimestamp: currentPointInTime.
+	(currentPointInTime >= nextPointInTime) ifTrue: [nextEvent := nextEvent copy setTimeStamp: nextPointInTime. 
+														self handleMouseEvent: nextEvent at: nextPointInTime. 
+														^ nextEvent].
+	self setTapeStreamToLastEvent.
 	self lastEvent ifNil: [^ nil].
 	
-	^ self calculateMouseMovementFor: nextEvent at: currentPointInTime until: nextPointInTime.
+	^ self calculateMouseMovementFor: nextEvent at: currentPointInTime until: nextPointInTime

@@ -1,15 +1,14 @@
 event-handling
-calculateMouseMovementFor: anEvent at: aTimestamp1 until: anTimestamp2
+calculateMouseMovementFor: anEvent at: aTimestamp until: aFutureTimestamp
 	
 	| lastEventPosition deltaPosition |
 	
 	lastEventPosition := self lastEvent position.
-	deltaPosition := self calculateCurrentDeltaPositionFor: anEvent from: lastEventPosition at: aTimestamp1 until: anTimestamp2.
+	deltaPosition := self calculateCurrentDeltaPositionFor: anEvent from: lastEventPosition at: aTimestamp until: aFutureTimestamp.
 	(deltaPosition = self lastDeltaPosition) ifTrue: [^ nil].
-		
 	self lastDeltaPosition: deltaPosition.
 	
 	^ MouseMoveEvent new
 		setType: #mouseMove 
 		startPoint: self lastEvent position endPoint: lastEventPosition + deltaPosition
-		trail: #() buttons: self lastEvent buttons hand: nil stamp: aTimestamp1.
+		trail: #() buttons: self lastEvent buttons hand: nil stamp: aTimestamp.

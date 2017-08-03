@@ -2,7 +2,7 @@ event-handling
 handleInvalidTimestamp: aTimestamp
 
 	 self 
-		currentTimeStamp: aTimestamp;
+		currentTimestamp: aTimestamp;
 		deltaTime: nil.
 		
 	^ nil

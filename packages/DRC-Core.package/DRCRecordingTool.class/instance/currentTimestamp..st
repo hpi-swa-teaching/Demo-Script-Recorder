@@ -1,4 +1,4 @@
 accessing
-currentTimeStamp: anObject
+currentTimestamp: anObject
 	
 	time := anObject.

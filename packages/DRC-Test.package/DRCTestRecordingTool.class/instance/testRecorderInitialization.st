@@ -8,7 +8,7 @@ testRecorderInitialization
 		assert: (self recordingTool pauseTotalTime) equals: 0;
 		assert: (self recordingTool pauseStartTime) equals: 0;
 		assert: (self recordingTool tape) equals: nil;
-		assert: (self recordingTool currentTimeStamp) equals: nil;
+		assert: (self recordingTool currentTimestamp) equals: nil;
 		assert: (self recordingTool deltaTime) equals: nil;
 		assert: (self recordingTool recHand) equals: nil;
 		assert: (self recordingTool playHand) equals: nil;

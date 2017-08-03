@@ -1,4 +1,4 @@
 accessing
-lastDelta
+lastDeltaPosition
 	
 	^ lastDelta

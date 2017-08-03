@@ -1,4 +1,4 @@
 accessing
-lastDelta: anObject
+lastDeltaPosition: anObject
 	
 	lastDelta := anObject.

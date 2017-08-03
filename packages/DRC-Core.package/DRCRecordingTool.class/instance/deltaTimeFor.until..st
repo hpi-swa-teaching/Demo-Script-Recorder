@@ -1,5 +1,9 @@
 event-handling
-deltaTimeFor: anEvent until: aTimestamp.
+deltaTimeFor: anEvent until: aTimestamp
 
-	self deltaTime ifNil: [self deltaTime: (aTimestamp - anEvent timeStamp)].
-	^ (anEvent timeStamp + self deltaTime)
+	| normalizedPointInTime |
+	
+	self deltaTime ifNil: [self deltaTime: (aTimestamp - anEvent timeStamp).].
+	normalizedPointInTime := anEvent timeStamp + self deltaTime.
+	
+	^ normalizedPointInTime

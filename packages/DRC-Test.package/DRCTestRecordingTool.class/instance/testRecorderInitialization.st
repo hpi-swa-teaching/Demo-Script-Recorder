@@ -8,12 +8,12 @@ testRecorderInitialization
 		assert: (self recordingTool pauseTotalTime) equals: 0;
 		assert: (self recordingTool pauseStartTime) equals: 0;
 		assert: (self recordingTool tape) equals: nil;
-		assert: (self recordingTool time) equals: nil;
+		assert: (self recordingTool currentTimeStamp) equals: nil;
 		assert: (self recordingTool deltaTime) equals: nil;
 		assert: (self recordingTool recHand) equals: nil;
 		assert: (self recordingTool playHand) equals: nil;
 		assert: (self recordingTool lastEvent) equals: nil;
-		assert: (self recordingTool lastDelta) equals: nil;
+		assert: (self recordingTool lastDeltaPosition) equals: nil;
 		assert: (self recordingTool tapeStream) equals: nil;
 		assert: (self recordingTool mouseCircle) equals: nil;
 		assert: (self recordingTool fileChooser class) equals: FileChooser.

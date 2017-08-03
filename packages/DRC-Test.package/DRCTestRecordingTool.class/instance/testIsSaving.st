@@ -1,7 +1,7 @@
 as yet unclassified
 testIsSaving
 
-	|tool|
+	| tool |
 	
 	tool := DRCRecordingTool new.
 	tool beNotSaving.

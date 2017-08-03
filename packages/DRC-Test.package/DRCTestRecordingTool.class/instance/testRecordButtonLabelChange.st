@@ -1,7 +1,7 @@
 as yet unclassified
 testRecordButtonLabelChange
 	
-	|tool|
+	| tool |
 	
 	tool := DRCRecordingTool new.
 	self assert: tool getLabel equals: 'Start New Record'.

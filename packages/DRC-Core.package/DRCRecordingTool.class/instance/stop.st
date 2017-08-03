@@ -8,5 +8,4 @@ stop
 	self 
 		pauseIn: ActiveWorld;
 		tapeStream: nil;
-		recorderState: nil;
-		checkTape.
+		recorderState: nil.

@@ -1,7 +1,7 @@
 as yet unclassified
 testPauseButton
 
-	|tool|
+	| tool |
 	
 	tool := DRCRecordingTool new.
 	self assert: tool pauseStartTime equals: 0.

@@ -1,8 +1,9 @@
 fileIn-Out
 readTape: aMultiByteFileStream 
-	self writeCheck.
-	
-	self tapePath: (aMultiByteFileStream fullName).
-	tape := self readFrom: aMultiByteFileStream.
+
+	self 
+		writeCheck;
+		tapePath: aMultiByteFileStream fullName;
+		tape: (self readFrom: aMultiByteFileStream).
 	aMultiByteFileStream close.
-	saved := true   
+	self saved: true.

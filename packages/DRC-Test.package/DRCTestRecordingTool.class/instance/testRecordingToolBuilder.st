@@ -1,7 +1,7 @@
 as yet unclassified
 testRecordingToolBuilder
 
-	|tool spec|
+	| tool spec |
 	
 	tool := DRCRecordingTool new.
 	spec := tool buildRecordingButtonBar: ToolBuilder new.

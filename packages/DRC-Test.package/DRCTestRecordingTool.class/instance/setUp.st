@@ -1,5 +1,5 @@
 as yet unclassified
 setUp
 
-	self recorder: DRCRecordingTool new.
+	self recordingTool: DRCRecordingTool new.
 	'EventRecorder.tape' asFile delete.

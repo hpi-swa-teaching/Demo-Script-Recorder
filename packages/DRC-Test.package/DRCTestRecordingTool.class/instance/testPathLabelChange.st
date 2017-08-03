@@ -1,7 +1,7 @@
 as yet unclassified
 testPathLabelChange
 
-	|tool|
+	| tool |
 	
 	tool := DRCRecordingTool new.
 	self assert: tool tapePath equals: 'no tape selected'.

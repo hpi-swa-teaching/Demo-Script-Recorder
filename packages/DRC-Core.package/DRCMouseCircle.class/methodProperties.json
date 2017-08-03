@@ -2,7 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"calculateVertices" : "FS 8/3/2017 13:14",
+		"angleStepRange" : "FS 8/3/2017 14:17",
+		"calculateVertices" : "FS 8/3/2017 14:17",
 		"circleDegrees" : "fs 8/2/2017 16:43",
 		"decreaseTimeToLive" : "fs 7/20/2017 14:56",
 		"defaultBorderWidth" : "fs 8/2/2017 14:01",

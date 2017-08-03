@@ -1,7 +1,7 @@
 as yet unclassified
 testRecordingToolInitialize
 
-	|tool|
+	| tool |
 	
 	tool := DRCRecordingTool new.
 	self 

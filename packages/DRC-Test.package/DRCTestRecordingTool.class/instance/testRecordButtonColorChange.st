@@ -1,7 +1,7 @@
 as yet unclassified
 testRecordButtonColorChange
 	
-	|tool|
+	| tool |
 	
 	tool := DRCRecordingTool new.
 	tool actionRecord.

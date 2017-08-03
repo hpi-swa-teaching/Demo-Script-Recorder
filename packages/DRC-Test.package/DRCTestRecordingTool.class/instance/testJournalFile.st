@@ -1,7 +1,7 @@
 as yet unclassified
 testJournalFile 
 
-	|tool|
+	| tool |
 	
 	tool := DRCRecordingTool new.
 	self assert: tool journalFile notNil equals: false.

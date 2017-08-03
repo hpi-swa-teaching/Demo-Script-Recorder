@@ -1,9 +1,9 @@
 commands
 record
 		
-	self resetSavedState.
-	self isSaving ifTrue: [self saveStateIn: self savedObjects.].
-	self
+	self 
+		resetSavedState;
+		saveStateIn: self savedObjects;
 		writeCheck;
 		addJournalFile;
 		pauseTotalTime: self initialPauseTotalTime;

@@ -1,7 +1,7 @@
 fileIn-Out
 writeTape: fileName 
 
-	| name |
+	| path |
 	
-	name := self writeFileNamed: fileName.
-	self tapePath: name.
+	path := self writeFileNamed: fileName.
+	self tapePath: path.

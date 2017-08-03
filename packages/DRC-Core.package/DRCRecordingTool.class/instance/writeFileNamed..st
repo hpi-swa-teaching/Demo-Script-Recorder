@@ -1,13 +1,15 @@
 fileIn-Out
 writeFileNamed: fileName
 	
-	| directory file delta|
+	| directory file timeDelta|
 	
 	directory := self createDirectoryChooser open.
 	file := directory newFileNamed: fileName.
 	file nextPutAll: 'Event Tape v1 ASCII'; cr.
-	delta := self tape first timeStamp.
-	self tape do: [:evt | file store: (evt copy setTimeStamp: evt timeStamp-delta); cr].
+	timeDelta := self tape first timeStamp.
+	self tape do: 
+		[:event | 
+			file store: (event copy setTimeStamp: event timeStamp-timeDelta); cr].
 	file close.
 	self saved: true.
 	

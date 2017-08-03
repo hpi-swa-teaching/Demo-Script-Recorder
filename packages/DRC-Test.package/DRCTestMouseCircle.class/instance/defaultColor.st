@@ -1,4 +1,4 @@
 as yet unclassified
 defaultColor
 
-	^Color red.
+	^ Color red

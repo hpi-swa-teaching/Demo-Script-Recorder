@@ -2,8 +2,8 @@ as yet unclassified
 testRecordButton
 
 	|tool|
-	tool := DRCRecordingTool new.
 	
+	tool := DRCRecordingTool new.
 	self assert: tool recorderState  equals: nil.
 	tool actionRecord.
 	self assert: tool recorderState equals: #record.

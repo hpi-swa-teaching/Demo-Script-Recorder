@@ -1,4 +1,4 @@
 as yet unclassified
 fileChooser
 
-	^MockFileChooser new
+	^ MockFileChooser new

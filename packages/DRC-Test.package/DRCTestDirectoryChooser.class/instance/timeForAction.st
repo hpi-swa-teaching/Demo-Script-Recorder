@@ -1,4 +1,4 @@
 as yet unclassified
-circle
+timeForAction
 
-	^ circle
+	^ 200

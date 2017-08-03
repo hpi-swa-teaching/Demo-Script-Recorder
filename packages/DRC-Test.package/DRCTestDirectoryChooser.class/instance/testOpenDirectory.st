@@ -5,6 +5,6 @@ testOpenDirectory
 
 	directoryChooser := DRCDirectoryChooser new.
 	directoryChooser initializeAsSystemWindow.
-	[	(Delay forMilliseconds: 200) wait.
+	[	(Delay forMilliseconds: self timeForAction) wait.
 		directoryChooser okHit.] fork.
 	self assert: (directoryChooser open isKindOf: FileDirectory).

@@ -2,11 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testIsSaving" : "tl 8/2/2017 14:44",
-		"testPathLabelChange" : "tl 8/2/2017 14:44",
-		"testPauseButton" : "tl 8/2/2017 14:45",
-		"testRecordButton" : "tl 8/2/2017 14:45",
-		"testRecordButtonColorChange" : "tl 8/2/2017 14:45",
-		"testRecordButtonLabelChange" : "tl 8/2/2017 14:45",
-		"testRecordingToolBuilder" : "tl 8/2/2017 00:27",
-		"testRecordingToolInitialize" : "tl 8/2/2017 14:45" } }
+		"testIsSaving" : "FS 8/3/2017 11:49",
+		"testPathLabelChange" : "FS 8/3/2017 11:42",
+		"testPauseButton" : "FS 8/3/2017 11:42",
+		"testRecordButton" : "FS 8/3/2017 11:43",
+		"testRecordButtonColorChange" : "FS 8/3/2017 11:45",
+		"testRecordButtonLabelChange" : "FS 8/3/2017 11:48",
+		"testRecordingToolBuilder" : "FS 8/3/2017 11:49",
+		"testRecordingToolInitialize" : "FS 8/3/2017 11:50" } }

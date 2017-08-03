@@ -1,6 +1,7 @@
 actions
 actionLoadRecord
 
-	self 
-		readTape;
-		changed: #currentTapePath.
+		self 
+			readTape ifNotNil: [self resetSavedState.];
+			changed: #currentTapePath.
+		

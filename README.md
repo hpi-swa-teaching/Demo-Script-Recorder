@@ -3,6 +3,13 @@ Demo Script Recorder
 
 This projects aims at improving and adding expanded functionality to the preexisting event recorder.
 
+In detail:
+ * Visualisation of Mouse Events
+ * Pausing of both recording and replaying
+ * A script editor for running scripts with every replay
+ * Option to store the state of the image of the beginning of a recording and restore it when starting the replay
+ * A new design, fitting to the squeak image
+
 Install the tool by either downloading the .sar-File, dropping it into Squeak and selecting `install SAR` or by executing the following code in an open Workspace:
 ```Smalltalk
 Metacello new
